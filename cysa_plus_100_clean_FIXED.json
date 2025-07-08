@@ -1,0 +1,2604 @@
+[                                                                                                                                                                                                                                          
+{                                                                                                                                                                                                                                           
+  "question number": "1",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which tool is primarily used to identify vulnerabilities in a network?",
+  "options": [
+    "A) Penetration testing tool",
+    "B) Vulnerability scanner",
+    "C) Network sniffer",
+    "D) SIEM system"
+  ],
+  "answer": "B",
+  "explanation": "A vulnerability scanner is specifically designed to identify weaknesses in systems, networks, or applications. Penetration testing tools are used for simulated attacks, network sniffers capture traffic, and SIEM systems monitor security events."
+},
+{
+  "question number": "2",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary purpose of a Common Vulnerability and Exposure (CVE) identifier?",
+  "options": [
+    "A) To assign a unique ID to a vulnerability",
+    "B) To provide a patch for a vulnerability",
+    "C) To track the number of vulnerabilities in a system",
+    "D) To prioritize vulnerabilities based on risk"
+  ],
+  "answer": "A",
+  "explanation": "CVE identifiers are standardized names and numbers assigned to publicly known cybersecurity vulnerabilities. They help in uniquely identifying and referencing vulnerabilities across systems and databases."
+},
+{
+  "question number": "3",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which of the following is a key component of a risk assessment?",
+  "options": [
+    "A) Vulnerability scanning",
+    "B) Threat modeling",
+    "C) Patch management",
+    "D) Incident response planning"
+  ],
+  "answer": "B",
+  "explanation": "Threat modeling is a structured approach to identifying, quantifying, and addressing risks associated with potential threats. Vulnerability scanning, patch management, and incident response are part of risk mitigation, not risk assessment."
+},
+{
+  "question number": "4",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the main goal of a vulnerability prioritization framework like CVSS?",
+  "options": [
+    "A) To classify vulnerabilities by severity",
+    "B) To automatically patch vulnerabilities",
+    "C) To track the number of vulnerabilities in a system",
+    "D) To assign CVE identifiers"
+  ],
+  "answer": "A",
+  "explanation": "The Common Vulnerability Scoring System (CVSS) is used to prioritize vulnerabilities based on their severity, impact, and exploitability. It does not handle patching, tracking, or CVE assignment."
+},
+{
+  "question number": "5",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which of the following is a common method for managing software vulnerabilities?",
+  "options": [
+    "A) Regularly updating software",
+    "B) Disabling unused services",
+    "C) Conducting penetration tests",
+    "D) All of the above"
+  ],
+  "answer": "D",
+  "explanation": "All listed methods are part of vulnerability management. Updating software patches known issues, disabling unused services reduces attack surfaces, and penetration tests identify vulnerabilities."
+},
+{
+  "question number": "6",
+  "domain": "Software and Systems Security",
+  "question": "Which encryption method provides confidentiality and integrity for data in transit?",
+  "options": [
+    "A) AES",
+    "B) RSA",
+    "C) TLS",
+    "D) SHA-256"
+  ],
+  "answer": "C",
+  "explanation": "Transport Layer Security (TLS) encrypts data in transit and ensures integrity through cryptographic checksums. AES is symmetric encryption, RSA is asymmetric, and SHA-256 is a hashing algorithm."
+},
+{
+  "question number": "7",
+  "domain": "Software and Systems Security",
+  "question": "What is the primary purpose of a firewall in network security?",
+  "options": [
+    "A) To encrypt data packets",
+    "B) To filter network traffic based on rules",
+    "C) To authenticate users",
+    "D) To monitor system logs"
+  ],
+  "answer": "B",
+  "explanation": "A firewall's main function is to control incoming and outgoing network traffic based on predefined security rules. Encryption, authentication, and log monitoring are handled by other security tools."
+},
+{
+  "question number": "8",
+  "domain": "Software and Systems Security",
+  "question": "Which access control model assigns permissions based on user roles?",
+  "options": [
+    "A) DAC (Discretionary Access Control)",
+    "B) MAC (Mandatory Access Control)",
+    "C) RBAC (Role-Based Access Control)",
+    "D) ABAC (Attribute-Based Access Control)"
+  ],
+  "answer": "C",
+  "explanation": "Role-Based Access Control (RBAC) grants permissions based on user roles within an organization. DAC allows owners to set permissions, MAC uses security labels, and ABAC uses attributes to determine access."
+},
+{
+  "question number": "9",
+  "domain": "Software and Systems Security",
+  "question": "What is the primary function of a digital certificate in secure communications?",
+  "options": [
+    "A) To store user passwords",
+    "B) To encrypt data packets",
+    "C) To verify the authenticity of a public key",
+    "D) To manage access control lists"
+  ],
+  "answer": "C",
+  "explanation": "Digital certificates bind a public key to an entity's identity, ensuring the authenticity of the public key used in secure communications like TLS. They do not store passwords, encrypt data, or manage access controls."
+},
+{
+  "question number": "10",
+  "domain": "Software and Systems Security",
+  "question": "Which of the following is a secure method for storing passwords?",
+  "options": [
+    "A) Storing plain-text passwords",
+    "B) Using salting and hashing",
+    "C) Encrypting passwords with AES",
+    "D) Storing passwords in a database with weak encryption"
+  ],
+  "answer": "B",
+  "explanation": "Salting and hashing (e.g., bcrypt) protect passwords by making them resistant to brute-force attacks. Plain-text storage, AES encryption, and weak encryption all expose passwords to risks."
+},
+{
+  "question number": "11",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which tool is primarily used to aggregate and analyze security-related data from multiple sources?",
+  "options": [
+    "A) SIEM system",
+    "B) Vulnerability scanner",
+    "C) Network sniffer",
+    "D) Firewall"
+  ],
+  "answer": "A",
+  "explanation": "A Security Information and Event Management (SIEM) system collects, correlates, and analyzes security data from various sources. Vulnerability scanners, network sniffers, and firewalls serve different purposes."
+},
+{
+  "question number": "12",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary purpose of log analysis in security operations?",
+  "options": [
+    "A) To identify potential security incidents",
+    "B) To encrypt user data",
+    "C) To manage user access",
+    "D) To configure firewalls"
+  ],
+  "answer": "A",
+  "explanation": "Log analysis helps detect anomalies, unauthorized access, or suspicious activities that may indicate security incidents. Encryption, access management, and firewall configuration are separate functions."
+},
+{
+  "question number": "13",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which metric is commonly used to measure the effectiveness of a security incident response team?",
+  "options": [
+    "A) Mean Time to Detect (MTTD)",
+    "B) Mean Time to Respond (MTTR)",
+    "C) Mean Time Between Failures (MTBF)",
+    "D) Mean Time to Resolve (MTTR)"
+  ],
+  "answer": "B",
+  "explanation": "Mean Time to Respond (MTTR) measures how quickly a team can address and resolve an incident. MTTD measures detection time, MTBF is for system reliability, and MTTR is similar to MTTR but often used interchangeably."
+},
+{
+  "question number": "14",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary benefit of using a SIEM system in security monitoring?",
+  "options": [
+    "A) Centralized log management",
+    "B) Automated patch deployment",
+    "C) Real-time threat detection",
+    "D) All of the above"
+  ],
+  "answer": "D",
+  "explanation": "SIEM systems provide centralized log management, real-time threat detection through correlation rules, and can support automated patching. All listed options are benefits of SIEM."
+},
+{
+  "question number": "15",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which of the following is a key function of a Security Operations Center (SOC)?",
+  "options": [
+    "A) Conducting penetration tests",
+    "B) Monitoring and responding to security incidents",
+    "C) Developing encryption algorithms",
+    "D) Managing user access controls"
+  ],
+  "answer": "B",
+  "explanation": "A SOC is focused on monitoring, detecting, and responding to security incidents. Penetration testing, encryption development, and access control management are handled by other teams or tools."
+},
+{
+  "question number": "16",
+  "domain": "Incident Response",
+  "question": "Which phase of incident response involves containing the incident to prevent further damage?",
+  "options": [
+    "A) Preparation",
+    "B) Identification",
+    "C) Containment",
+    "D) Recovery"
+  ],
+  "answer": "C",
+  "explanation": "The containment phase is dedicated to isolating affected systems and preventing the incident from spreading. Preparation involves planning, identification involves detecting the incident, and recovery focuses on restoring systems."
+},
+{
+  "question number": "17",
+  "domain": "Incident Response",
+  "question": "What is the primary goal of the incident response recovery phase?",
+  "options": [
+    "A) To detect the incident",
+    "B) To contain the incident",
+    "C) To restore systems to normal operation",
+    "D) To document the incident"
+  ],
+  "answer": "C",
+  "explanation": "The recovery phase aims to restore systems, data, and services to their normal operational state. Detection and containment are earlier phases, while documentation is part of post-incident analysis."
+},
+{
+  "question number": "18",
+  "domain": "Incident Response",
+  "question": "Which of the following is a key component of an incident response plan?",
+  "options": [
+    "A) A list of all users in the organization",
+    "B) Defined roles and responsibilities",
+    "C) A detailed report on past incidents",
+    "D) A list of all software installed"
+  ],
+  "answer": "B",
+  "explanation": "Defined roles and responsibilities ensure clarity during an incident. User lists, software inventories, and incident reports are supporting elements but not core components of the plan."
+},
+{
+  "question number": "19",
+  "domain": "Incident Response",
+  "question": "What is the primary purpose of a post-incident review?",
+  "options": [
+    "A) To document the incident",
+    "B) To prevent future incidents",
+    "C) To assign blame to individuals",
+    "D) To update the incident response plan"
+  ],
+  "answer": "B",
+  "explanation": "Post-incident reviews focus on learning from the incident to improve processes and prevent recurrence. Documenting the incident is part of the review, but assigning blame is not a valid purpose."
+},
+{
+  "question number": "20",
+  "domain": "Incident Response",
+  "question": "Which of the following is a critical step during the incident response identification phase?",
+  "options": [
+    "A) Containing the incident",
+    "B) Analyzing log files",
+    "C) Notifying stakeholders",
+    "D) Conducting a root cause analysis"
+  ],
+  "answer": "B",
+  "explanation": "Analyzing log files helps identify the incident's nature and scope. Containing the incident is part of the containment phase, notifying stakeholders occurs during response, and root cause analysis is in the post-incident phase."
+},
+{
+  "question number": "21",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which of the following is a common method to mitigate the risk of zero-day vulnerabilities?",
+  "options": [
+    "A) Applying patches immediately",
+    "B) Disabling unused services",
+    "C) Using intrusion detection systems",
+    "D) All of the above"
+  ],
+  "answer": "D",
+  "explanation": "All listed methods help mitigate zero-day risks. Patches address known vulnerabilities, disabling services reduces attack surfaces, and intrusion detection systems monitor for anomalies."
+},
+{
+  "question number": "22",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary purpose of a penetration test?",
+  "options": [
+    "A) To identify vulnerabilities in a system",
+    "B) To provide a CVE identifier",
+    "C) To patch known vulnerabilities",
+    "D) To monitor network traffic"
+  ],
+  "answer": "A",
+  "explanation": "Penetration testing simulates real-world attacks to identify vulnerabilities. CVE identifiers are assigned by organizations, patching is part of remediation, and traffic monitoring is handled by other tools."
+},
+{
+  "question number": "23",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which of the following is a key factor in determining the priority of a vulnerability?",
+  "options": [
+    "A) The number of systems affected",
+    "B) The vendor's response time",
+    "C) The cost of the patch",
+    "D) The user's location"
+  ],
+  "answer": "A",
+  "explanation": "The number of systems affected is a primary factor in vulnerability prioritization. Vendor response time, patch cost, and user location are secondary considerations."
+},
+{
+  "question number": "24",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary benefit of using automated vulnerability scanning tools?",
+  "options": [
+    "A) To reduce the time required for manual audits",
+    "B) To replace human expertise",
+    "C) To eliminate all security risks",
+    "D) To provide real-time threat detection"
+  ],
+  "answer": "A",
+  "explanation": "Automated tools speed up vulnerability assessments but cannot replace human expertise or eliminate all risks. Real-time detection is a feature of SIEM systems, not vulnerability scanners."
+},
+{
+  "question number": "25",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which of the following is a common vulnerability in web applications?",
+  "options": [
+    "A) SQL injection",
+    "B) Weak password policies",
+    "C) Misconfigured firewalls",
+    "D) All of the above"
+  ],
+  "answer": "D",
+  "explanation": "SQL injection, weak passwords, and misconfigured firewalls are all common vulnerabilities. Each can be exploited to compromise web applications."
+},
+{
+  "question number": "26",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which of the following is a key function of a Security Information and Event Management (SIEM) system?",
+  "options": [
+    "A) Storing user passwords",
+    "B) Monitoring network traffic",
+    "C) Correlating security events",
+    "D) Managing user access controls"
+  ],
+  "answer": "C",
+  "explanation": "SIEM systems correlate security events from multiple sources to detect threats. Storing passwords, monitoring traffic, and managing access are handled by other tools or systems."
+},
+{
+  "question number": "27",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary purpose of a Security Operations Center (SOC)?",
+  "options": [
+    "A) To develop encryption algorithms",
+    "B) To monitor and respond to security incidents",
+    "C) To manage user access controls",
+    "D) To conduct penetration tests"
+  ],
+  "answer": "B",
+  "explanation": "A SOC is focused on monitoring and responding to security incidents. Encryption development, access control, and penetration testing are handled by other teams or tools."
+},
+{
+  "question number": "28",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which of the following is a common challenge in log analysis?",
+  "options": [
+    "A) High data volume",
+    "B) Low data volume",
+    "C) Minimal false positives",
+    "D) No need for correlation"
+  ],
+  "answer": "A",
+  "explanation": "Log analysis faces challenges like high data volume, which requires efficient tools and processes. Low volume, minimal false positives, and no correlation are not typical challenges."
+},
+{
+  "question number": "29",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary benefit of using correlation rules in a SIEM system?",
+  "options": [
+    "A) To reduce the number of false positives",
+    "B) To increase data storage requirements",
+    "C) To improve user access controls",
+    "D) To eliminate all security threats"
+  ],
+  "answer": "A",
+  "explanation": "Correlation rules help identify patterns and reduce false positives by linking related events. They do not eliminate all threats or impact data storage."
+},
+{
+  "question number": "30",
+  "domain": "Incident Response",
+  "question": "Which of the following is a key step in the incident response containment phase?",
+  "options": [
+    "A) Documenting the incident",
+    "B) Isolating affected systems",
+    "C) Notifying stakeholders",
+    "D) Conducting a root cause analysis"
+  ],
+  "answer": "B",
+  "explanation": "Isolating affected systems is the primary action in containment to prevent further damage. Documentation, stakeholder notification, and root cause analysis occur in later phases."
+},
+{
+  "question number": "31",
+  "domain": "Incident Response",
+  "question": "What is the primary goal of an incident response team during the containment phase?",
+  "options": [
+    "A) To document the incident",
+    "B) To prevent further damage",
+    "C) To assign blame to individuals",
+    "D) To restore normal operations"
+  ],
+  "answer": "B",
+  "explanation": "Containment focuses on stopping the incident's spread. Documentation is part of the post-incident phase, assigning blame is not a goal, and restoring operations is in the recovery phase."
+},
+{
+  "question number": "32",
+  "domain": "Incident Response",
+  "question": "Which of the following is a critical component of an incident response plan?",
+  "options": [
+    "A) A list of all users in the organization",
+    "B) Defined roles and responsibilities",
+    "C) A detailed report on past incidents",
+    "D) A list of all software installed"
+  ],
+  "answer": "B",
+  "explanation": "Defined roles and responsibilities ensure clarity and coordination during an incident. User lists, software inventories, and incident reports are supporting elements but not core components."
+},
+{
+  "question number": "33",
+  "domain": "Incident Response",
+  "question": "What is the primary purpose of a post-incident review?",
+  "options": [
+    "A) To document the incident",
+    "B) To prevent future incidents",
+    "C) To assign blame to individuals",
+    "D) To update the incident response plan"
+  ],
+  "answer": "B",
+  "explanation": "Post-incident reviews focus on learning from the incident to improve processes and prevent recurrence. Documenting the incident is part of the review, but assigning blame is not a valid purpose."
+},
+{
+  "question number": "34",
+  "domain": "Incident Response",
+  "question": "Which of the following is a key step during the incident response identification phase?",
+  "options": [
+    "A) Containing the incident",
+    "B) Analyzing log files",
+    "C) Notifying stakeholders",
+    "D) Conducting a root cause analysis"
+  ],
+  "answer": "B",
+  "explanation": "Analyzing log files helps identify the incident's nature and scope. Containing the incident is part of the containment phase, notifying stakeholders occurs during response, and root cause analysis is in the post-incident phase."
+},
+{
+  "question number": "35",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which of the following is a common method to mitigate the risk of insider threats?",
+  "options": [
+    "A) Implementing strict access controls",
+    "B) Disabling all user accounts",
+    "C) Using unencrypted communication channels",
+    "D) All of the above"
+  ],
+  "answer": "A",
+  "explanation": "Strict access controls reduce the risk of insider threats. Disabling all user accounts is not practical, and unencrypted channels increase risk."
+},
+{
+  "question number": "36",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary purpose of a vulnerability scan?",
+  "options": [
+    "A) To identify vulnerabilities in a system",
+    "B) To provide a CVE identifier",
+    "C) To patch known vulnerabilities",
+    "D) To monitor network traffic"
+  ],
+  "answer": "A",
+  "explanation": "Vulnerability scans are used to find weaknesses in systems. CVE identifiers are assigned by organizations, patching is part of remediation, and traffic monitoring is handled by other tools."
+},
+{
+  "question number": "37",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which of the following is a key factor in determining the priority of a vulnerability?",
+  "options": [
+    "A) The number of systems affected",
+    "B) The vendor's response time",
+    "C) The cost of the patch",
+    "D) The user's location"
+  ],
+  "answer": "A",
+  "explanation": "The number of systems affected is a primary factor in vulnerability prioritization. Vendor response time, patch cost, and user location are secondary considerations."
+},
+{
+  "question number": "38",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary benefit of using automated vulnerability scanning tools?",
+  "options": [
+    "A) To reduce the time required for manual audits",
+    "B) To replace human expertise",
+    "C) To eliminate all security risks",
+    "D) To provide real-time threat detection"
+  ],
+  "answer": "A",
+  "explanation": "Automated tools speed up vulnerability assessments but cannot replace human expertise or eliminate all risks. Real-time detection is a feature of SIEM systems, not vulnerability scanners."
+},
+{
+  "question number": "39",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which of the following is a common vulnerability in web applications?",
+  "options": [
+    "A) SQL injection",
+    "B) Weak password policies",
+    "C) Misconfigured firewalls",
+    "D) All of the above"
+  ],
+  "answer": "D",
+  "explanation": "SQL injection, weak passwords, and misconfigured firewalls are all common vulnerabilities. Each can be exploited to compromise web applications."
+},
+{
+  "question number": "40",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which of the following is a key function of a Security Information and Event Management (SIEM) system?",
+  "options": [
+    "A) Storing user passwords",
+    "B) Monitoring network traffic",
+    "C) Correlating security events",
+    "D) Managing user access controls"
+  ],
+  "answer": "C",
+  "explanation": "SIEM systems correlate security events from multiple sources to detect threats. Storing passwords, monitoring traffic, and managing access are handled by other tools or systems."
+},
+
+{
+  "question number": "41",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which framework is commonly used for threat intelligence classification and sharing?",
+  "options": [
+    "A) NIST Cybersecurity Framework",
+    "B) STIX/TAXII",
+    "C) ISO 27001",
+    "D) COBIT"
+  ],
+  "answer": "B",
+  "explanation": "STIX (Structured Threat Information Expression) and TAXII (Trusted Automated Exchange of Intelligence Information) are standards specifically designed for threat intelligence sharing and classification. NIST CSF is a general cybersecurity framework, ISO 27001 is for information security management, and COBIT is for IT governance."
+},
+{
+  "question number": "42",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary purpose of asset inventory in vulnerability management?",
+  "options": [
+    "A) To calculate insurance premiums",
+    "B) To identify what needs to be protected",
+    "C) To determine budget requirements",
+    "D) To comply with regulations"
+  ],
+  "answer": "B",
+  "explanation": "Asset inventory helps identify all systems, applications, and data that need protection, enabling comprehensive vulnerability management. While it may support insurance, budgeting, and compliance, its primary purpose is understanding what assets exist and require security attention."
+},
+{
+  "question number": "43",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which type of vulnerability assessment provides the most comprehensive view of security weaknesses?",
+  "options": [
+    "A) Credentialed scan",
+    "B) Non-credentialed scan",
+    "C) Network scan",
+    "D) Port scan"
+  ],
+  "answer": "A",
+  "explanation": "Credentialed scans provide administrative access to systems, allowing deeper inspection of configurations, installed software, and internal vulnerabilities. Non-credentialed scans only see external attack surfaces, while network and port scans are more limited in scope."
+},
+{
+  "question number": "44",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary benefit of conducting regular threat hunting activities?",
+  "options": [
+    "A) To replace automated security tools",
+    "B) To proactively identify threats that evaded detection",
+    "C) To reduce security tool costs",
+    "D) To eliminate the need for incident response"
+  ],
+  "answer": "B",
+  "explanation": "Threat hunting proactively searches for threats that may have bypassed automated security controls. It complements but doesn't replace automated tools, and doesn't eliminate the need for incident response or primarily focus on cost reduction."
+},
+{
+  "question number": "45",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which metric is most useful for measuring the effectiveness of a vulnerability management program?",
+  "options": [
+    "A) Number of vulnerabilities discovered",
+    "B) Mean time to remediate (MTTR)",
+    "C) Cost of scanning tools",
+    "D) Number of scanning tools deployed"
+  ],
+  "answer": "B",
+  "explanation": "Mean time to remediate (MTTR) measures how quickly vulnerabilities are addressed after discovery, indicating program effectiveness. The number of vulnerabilities discovered and tools deployed are activity metrics, not effectiveness measures, and cost is not directly related to effectiveness."
+},
+{
+  "question number": "46",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary purpose of a threat intelligence feed?",
+  "options": [
+    "A) To provide real-time vulnerability patches",
+    "B) To deliver actionable information about current threats",
+    "C) To replace security monitoring tools",
+    "D) To automate incident response"
+  ],
+  "answer": "B",
+  "explanation": "Threat intelligence feeds provide current, actionable information about threats, tactics, techniques, and procedures (TTPs) that can inform security decisions. They don't provide patches, replace monitoring tools, or automate incident response."
+},
+{
+  "question number": "47",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which approach is most effective for managing vulnerabilities in legacy systems that cannot be patched?",
+  "options": [
+    "A) Ignore the vulnerabilities",
+    "B) Implement compensating controls",
+    "C) Disconnect from the network",
+    "D) Replace immediately"
+  ],
+  "answer": "B",
+  "explanation": "Compensating controls (like network segmentation, additional monitoring, or access restrictions) can mitigate risks when direct patching isn't possible. Ignoring vulnerabilities increases risk, disconnecting may not be feasible, and immediate replacement may not be practical or cost-effective."
+},
+{
+  "question number": "48",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary difference between a vulnerability assessment and a penetration test?",
+  "options": [
+    "A) Vulnerability assessments are automated, penetration tests are manual",
+    "B) Vulnerability assessments identify weaknesses, penetration tests exploit them",
+    "C) Vulnerability assessments are cheaper than penetration tests",
+    "D) Vulnerability assessments require credentials, penetration tests do not"
+  ],
+  "answer": "B",
+  "explanation": "Vulnerability assessments identify and catalog security weaknesses, while penetration tests actively exploit vulnerabilities to demonstrate real-world impact. Both can be automated or manual, cost varies, and credential requirements depend on the specific approach."
+},
+{
+  "question number": "49",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which factor is most important when prioritizing vulnerability remediation efforts?",
+  "options": [
+    "A) Age of the vulnerability",
+    "B) Vendor's patch availability",
+    "C) Business impact and exploitability",
+    "D) Number of affected systems"
+  ],
+  "answer": "C",
+  "explanation": "Business impact and exploitability determine the actual risk posed by a vulnerability. While age, patch availability, and affected systems are considerations, the combination of potential business impact and likelihood of exploitation should drive prioritization decisions."
+},
+{
+  "question number": "50",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary purpose of vulnerability scanning in a DevOps environment?",
+  "options": [
+    "A) To slow down development cycles",
+    "B) To integrate security testing into the development pipeline",
+    "C) To replace manual code reviews",
+    "D) To eliminate the need for penetration testing"
+  ],
+  "answer": "B",
+  "explanation": "In DevOps, vulnerability scanning integrates security testing into the development pipeline, enabling early detection and remediation of vulnerabilities. It doesn't slow development when properly implemented, doesn't replace manual reviews, and doesn't eliminate the need for penetration testing."
+},
+{
+  "question number": "51",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which type of threat intelligence is most valuable for strategic security planning?",
+  "options": [
+    "A) Tactical intelligence",
+    "B) Operational intelligence",
+    "C) Strategic intelligence",
+    "D) Technical intelligence"
+  ],
+  "answer": "C",
+  "explanation": "Strategic intelligence provides long-term threat trends, threat actor motivations, and geopolitical context that informs strategic security planning. Tactical intelligence focuses on specific TTPs, operational intelligence on campaigns, and technical intelligence on indicators of compromise."
+},
+{
+  "question number": "52",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary benefit of using a vulnerability management platform over standalone scanning tools?",
+  "options": [
+    "A) Lower cost",
+    "B) Centralized management and reporting",
+    "C) Better scanning accuracy",
+    "D) Faster scan execution"
+  ],
+  "answer": "B",
+  "explanation": "Vulnerability management platforms provide centralized management, reporting, and workflow orchestration across multiple scanning tools and environments. While they may offer other benefits, their primary advantage is unified management and visibility."
+},
+{
+  "question number": "53",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which approach is most effective for managing third-party vendor risks?",
+  "options": [
+    "A) Avoid all third-party vendors",
+    "B) Require vendors to have cyber insurance",
+    "C) Implement vendor risk assessment programs",
+    "D) Trust vendor security claims"
+  ],
+  "answer": "C",
+  "explanation": "Vendor risk assessment programs systematically evaluate third-party security posture, including security controls, compliance, and risk management practices. Avoiding all vendors is impractical, insurance doesn't eliminate risk, and trusting claims without verification is inadequate."
+},
+{
+  "question number": "54",
+  "domain": "Threat and Vulnerability Management",
+  "question": "What is the primary purpose of attack surface management?",
+  "options": [
+    "A) To increase the number of services available",
+    "B) To identify and reduce exposure to threats",
+    "C) To improve system performance",
+    "D) To comply with regulations"
+  ],
+  "answer": "B",
+  "explanation": "Attack surface management identifies all possible entry points for attackers and works to reduce unnecessary exposure. It's not about increasing services, improving performance, or primarily about compliance, but about minimizing the attack surface available to threats."
+},
+{
+  "question number": "55",
+  "domain": "Threat and Vulnerability Management",
+  "question": "Which technique is most effective for detecting advanced persistent threats (APTs)?",
+  "options": [
+    "A) Signature-based detection",
+    "B) Behavioral analysis",
+    "C) Port scanning",
+    "D) Static analysis"
+  ],
+  "answer": "B",
+  "explanation": "Behavioral analysis detects anomalous activities and patterns that indicate APTs, which often use novel techniques to evade signature-based detection. Port scanning and static analysis are useful for specific purposes but less effective against sophisticated, adaptive threats."
+},
+{
+  "question number": "56",
+  "domain": "Software and Systems Security",
+  "question": "Which secure coding practice is most effective at preventing buffer overflow attacks?",
+  "options": [
+    "A) Input validation",
+    "B) Output encoding",
+    "C) Bounds checking",
+    "D) Error handling"
+  ],
+  "answer": "C",
+  "explanation": "Bounds checking ensures that data doesn't exceed allocated memory boundaries, directly preventing buffer overflows. Input validation helps but doesn't specifically address buffer boundaries, while output encoding and error handling address different security concerns."
+},
+{
+  "question number": "57",
+  "domain": "Software and Systems Security",
+  "question": "What is the primary purpose of application sandboxing?",
+  "options": [
+    "A) To improve application performance",
+    "B) To isolate applications from the operating system",
+    "C) To reduce memory usage",
+    "D) To speed up development"
+  ],
+  "answer": "B",
+  "explanation": "Application sandboxing isolates applications from the operating system and other applications, limiting the potential damage from security breaches. It's not primarily for performance improvement, memory reduction, or development speed."
+},
+{
+  "question number": "58",
+  "domain": "Software and Systems Security",
+  "question": "Which cryptographic concept ensures that a message hasn't been altered during transmission?",
+  "options": [
+    "A) Confidentiality",
+    "B) Integrity",
+    "C) Availability",
+    "D) Non-repudiation"
+  ],
+  "answer": "B",
+  "explanation": "Integrity ensures that data hasn't been modified during transmission or storage, typically implemented through cryptographic hashing. Confidentiality protects against unauthorized access, availability ensures access when needed, and non-repudiation prevents denial of actions."
+},
+{
+  "question number": "59",
+  "domain": "Software and Systems Security",
+  "question": "What is the primary security benefit of implementing multi-factor authentication (MFA)?",
+  "options": [
+    "A) It encrypts user passwords",
+    "B) It provides defense in depth for authentication",
+    "C) It eliminates the need for password policies",
+    "D) It prevents all unauthorized access"
+  ],
+  "answer": "B",
+  "explanation": "MFA provides multiple layers of authentication, implementing defense in depth by requiring multiple forms of verification. It doesn't encrypt passwords, doesn't eliminate the need for password policies, and doesn't prevent all unauthorized access."
+},
+{
+  "question number": "60",
+  "domain": "Software and Systems Security",
+  "question": "Which security control is most effective at preventing privilege escalation attacks?",
+  "options": [
+    "A) Antivirus software",
+    "B) Principle of least privilege",
+    "C) Network segmentation",
+    "D) Data encryption"
+  ],
+  "answer": "B",
+  "explanation": "The principle of least privilege limits users and processes to only the minimum permissions needed, reducing opportunities for privilege escalation. Antivirus, network segmentation, and encryption address different security concerns."
+},
+{
+  "question number": "61",
+  "domain": "Software and Systems Security",
+  "question": "What is the primary purpose of code signing in software security?",
+  "options": [
+    "A) To encrypt the source code",
+    "B) To verify the authenticity and integrity of software",
+    "C) To improve software performance",
+    "D) To reduce software size"
+  ],
+  "answer": "B",
+  "explanation": "Code signing uses digital signatures to verify that software comes from a trusted source and hasn't been tampered with. It doesn't encrypt source code, improve performance, or reduce size."
+},
+{
+  "question number": "62",
+  "domain": "Software and Systems Security",
+  "question": "Which approach is most effective for securing APIs against injection attacks?",
+  "options": [
+    "A) Rate limiting",
+    "B) Input validation and parameterized queries",
+    "C) SSL/TLS encryption",
+    "D) API key authentication"
+  ],
+  "answer": "B",
+  "explanation": "Input validation and parameterized queries prevent injection attacks by ensuring that user input is properly sanitized and separated from code. Rate limiting prevents abuse, SSL/TLS provides encryption, and API keys provide authentication, but none specifically address injection attacks."
+},
+{
+  "question number": "63",
+  "domain": "Software and Systems Security",
+  "question": "What is the primary security benefit of implementing container security scanning?",
+  "options": [
+    "A) To improve container performance",
+    "B) To identify vulnerabilities in container images",
+    "C) To reduce container size",
+    "D) To speed up deployment"
+  ],
+  "answer": "B",
+  "explanation": "Container security scanning identifies vulnerabilities, misconfigurations, and security issues in container images before deployment. It's not primarily for performance improvement, size reduction, or deployment speed."
+},
+{
+  "question number": "64",
+  "domain": "Software and Systems Security",
+  "question": "Which security measure is most important for protecting data at rest?",
+  "options": [
+    "A) Network monitoring",
+    "B) Data encryption",
+    "C) Access logging",
+    "D) Firewall rules"
+  ],
+  "answer": "B",
+  "explanation": "Data encryption protects stored data from unauthorized access even if storage systems are compromised. Network monitoring, access logging, and firewall rules are important but don't directly protect data at rest."
+},
+{
+  "question number": "65",
+  "domain": "Software and Systems Security",
+  "question": "What is the primary purpose of implementing secure development lifecycle (SDLC) practices?",
+  "options": [
+    "A) To speed up development",
+    "B) To reduce development costs",
+    "C) To integrate security throughout the development process",
+    "D) To eliminate the need for testing"
+  ],
+  "answer": "C",
+  "explanation": "Secure SDLC integrates security considerations throughout the development process, from requirements gathering to deployment. While it may affect speed and costs, its primary purpose is ensuring security is built into software from the beginning."
+},
+{
+  "question number": "66",
+  "domain": "Software and Systems Security",
+  "question": "Which technique is most effective for preventing cross-site scripting (XSS) attacks?",
+  "options": [
+    "A) SQL parameterization",
+    "B) Output encoding",
+    "C) Input validation",
+    "D) Both B and C"
+  ],
+  "answer": "D",
+  "explanation": "Both output encoding and input validation are essential for preventing XSS attacks. Output encoding ensures that user input is properly escaped when displayed, while input validation prevents malicious scripts from being accepted. SQL parameterization prevents SQL injection, not XSS."
+},
+{
+  "question number": "67",
+  "domain": "Software and Systems Security",
+  "question": "What is the primary security benefit of implementing database activity monitoring?",
+  "options": [
+    "A) To improve database performance",
+    "B) To detect unauthorized database access and activities",
+    "C) To reduce database storage requirements",
+    "D) To speed up database queries"
+  ],
+  "answer": "B",
+  "explanation": "Database activity monitoring tracks and analyzes database access patterns to detect unauthorized activities, policy violations, and potential threats. It's not primarily for performance improvement, storage reduction, or query optimization."
+},
+{
+  "question number": "68",
+  "domain": "Software and Systems Security",
+  "question": "Which approach is most effective for securing microservices architectures?",
+  "options": [
+    "A) Perimeter-based security only",
+    "B) Zero-trust architecture with service-to-service authentication",
+    "C) Shared security credentials",
+    "D) Network-based security only"
+  ],
+  "answer": "B",
+  "explanation": "Zero-trust architecture with service-to-service authentication ensures that each microservice verifies the identity of others before allowing access. Perimeter-based or network-only security is insufficient for distributed architectures, and shared credentials create security risks."
+},
+{
+  "question number": "69",
+  "domain": "Software and Systems Security",
+  "question": "What is the primary purpose of implementing application whitelisting?",
+  "options": [
+    "A) To improve application performance",
+    "B) To allow only approved applications to execute",
+    "C) To reduce licensing costs",
+    "D) To speed up application installation"
+  ],
+  "answer": "B",
+  "explanation": "Application whitelisting allows only pre-approved applications to execute, preventing unauthorized or malicious software from running. It's not primarily for performance improvement, cost reduction, or installation speed."
+},
+{
+  "question number": "70",
+  "domain": "Software and Systems Security",
+  "question": "Which security control is most effective at preventing data exfiltration?",
+  "options": [
+    "A) Data loss prevention (DLP)",
+    "B) Antivirus software",
+    "C) Password policies",
+    "D) System patching"
+  ],
+  "answer": "A",
+  "explanation": "Data loss prevention (DLP) specifically monitors and controls data movement to prevent unauthorized data exfiltration. Antivirus, password policies, and patching are important security controls but don't specifically address data exfiltration."
+},
+{
+  "question number": "71",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary benefit of implementing security orchestration, automation, and response (SOAR)?",
+  "options": [
+    "A) To replace security analysts",
+    "B) To automate repetitive security tasks and improve response times",
+    "C) To eliminate the need for SIEM systems",
+    "D) To reduce security tool costs"
+  ],
+  "answer": "B",
+  "explanation": "SOAR automates repetitive security tasks and orchestrates response workflows, improving efficiency and response times. It augments but doesn't replace security analysts, doesn't eliminate SIEM systems, and while it may affect costs, its primary benefit is operational efficiency."
+},
+{
+  "question number": "72",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which metric is most important for measuring SOC effectiveness?",
+  "options": [
+    "A) Number of alerts generated",
+    "B) Mean time to detect and respond (MTTD/MTTR)",
+    "C) Number of security tools deployed",
+    "D) Cost per security event"
+  ],
+  "answer": "B",
+  "explanation": "Mean time to detect and respond measures how quickly the SOC can identify and address threats, directly reflecting effectiveness. Alert volume, tool count, and costs are operational metrics but don't directly measure security effectiveness."
+},
+{
+  "question number": "73",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary purpose of security baseline configuration management?",
+  "options": [
+    "A) To improve system performance",
+    "B) To ensure consistent security configurations across systems",
+    "C) To reduce system maintenance costs",
+    "D) To speed up system deployment"
+  ],
+  "answer": "B",
+  "explanation": "Security baseline configuration management ensures that all systems are configured according to security standards and policies, maintaining consistency and reducing security risks. It's not primarily for performance, cost reduction, or deployment speed."
+},
+{
+  "question number": "74",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which approach is most effective for reducing false positives in security monitoring?",
+  "options": [
+    "A) Increasing alert thresholds",
+    "B) Tuning detection rules based on environmental context",
+    "C) Disabling problematic alerts",
+    "D) Reducing monitoring coverage"
+  ],
+  "answer": "B",
+  "explanation": "Tuning detection rules based on environmental context and normal behavior patterns helps distinguish between legitimate activities and actual threats, reducing false positives. Simply increasing thresholds, disabling alerts, or reducing coverage may miss real threats."
+},
+{
+  "question number": "75",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary benefit of implementing user and entity behavior analytics (UEBA)?",
+  "options": [
+    "A) To replace traditional security monitoring",
+    "B) To detect anomalous behavior that may indicate threats",
+    "C) To improve user productivity",
+    "D) To reduce network bandwidth usage"
+  ],
+  "answer": "B",
+  "explanation": "UEBA analyzes user and entity behavior patterns to detect anomalies that may indicate insider threats, compromised accounts, or other security issues. It complements but doesn't replace traditional monitoring, and isn't primarily for productivity or bandwidth optimization."
+},
+{
+  "question number": "76",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which type of log analysis is most effective for detecting advanced persistent threats?",
+  "options": [
+    "A) Real-time alert generation",
+    "B) Historical trend analysis",
+    "C) Correlation analysis across multiple log sources",
+    "D) Single-event analysis"
+  ],
+  "answer": "C",
+  "explanation": "Correlation analysis across multiple log sources can identify patterns and connections that indicate APT activities, which often involve multiple systems and techniques. Real-time alerts, historical trends, and single-event analysis are useful but less effective for detecting sophisticated, multi-stage attacks."
+},
+{
+  "question number": "77",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary purpose of implementing network segmentation in security operations?",
+  "options": [
+    "A) To improve network performance",
+    "B) To contain threats and limit lateral movement",
+    "C) To reduce network equipment costs",
+    "D) To simplify network management"
+  ],
+  "answer": "B",
+  "explanation": "Network segmentation isolates different parts of the network to contain threats and prevent lateral movement during security incidents. While it may affect performance and management, its primary security purpose is threat containment."
+},
+{
+  "question number": "78",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which approach is most effective for managing security tool alerts in a large environment?",
+  "options": [
+    "A) Increase staffing proportionally",
+    "B) Implement alert prioritization and automation",
+    "C) Disable low-priority alerts",
+    "D) Reduce monitoring coverage"
+  ],
+  "answer": "B",
+  "explanation": "Alert prioritization and automation help manage large volumes of alerts by focusing analyst attention on the most critical threats and automating routine responses. Simply increasing staff is expensive and may not scale, while disabling alerts or reducing coverage creates security gaps."
+},
+{
+  "question number": "79",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary benefit of implementing continuous security monitoring?",
+  "options": [
+    "A) To reduce security tool costs",
+    "B) To provide real-time visibility into security posture",
+    "C) To eliminate the need for security assessments",
+    "D) To replace security policies"
+  ],
+  "answer": "B",
+  "explanation": "Continuous security monitoring provides ongoing, real-time visibility into the security posture of systems and networks, enabling rapid threat detection and response. It doesn't eliminate the need for assessments or policies, and while it may affect costs, its primary benefit is visibility."
+},
+{
+  "question number": "80",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which technique is most effective for detecting insider threats?",
+  "options": [
+    "A) Perimeter security controls",
+    "B) Behavioral monitoring and anomaly detection",
+    "C) Antivirus software",
+    "D) Network firewalls"
+  ],
+  "answer": "B",
+  "explanation": "Behavioral monitoring and anomaly detection can identify unusual user activities that may indicate insider threats, such as accessing unusual data or systems. Perimeter controls, antivirus, and firewalls are less effective against threats originating from authorized users."
+},
+{
+  "question number": "81",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary purpose of implementing security metrics and KPIs?",
+  "options": [
+    "A) To comply with regulations",
+    "B) To measure and improve security program effectiveness",
+    "C) To reduce security costs",
+    "D) To increase security tool usage"
+  ],
+  "answer": "B",
+  "explanation": "Security metrics and KPIs measure the effectiveness of security programs and help identify areas for improvement. While they may support compliance and cost management, their primary purpose is to enable data-driven security improvements."
+},
+{
+  "question number": "82",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which approach is most effective for handling security alerts during off-hours?",
+  "options": [
+    "A) Ignore alerts until business hours",
+    "B) Implement automated response playbooks",
+    "C) Forward all alerts to management",
+    "D) Disable monitoring during off-hours"
+  ],
+  "answer": "B",
+  "explanation": "Automated response playbooks can handle routine alerts and escalate critical incidents during off-hours, ensuring continuous security operations. Ignoring alerts, overwhelming management, or disabling monitoring creates security gaps."
+},
+{
+  "question number": "83",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary benefit of implementing threat hunting in security operations?",
+  "options": [
+    "A) To reduce security tool costs",
+    "B) To proactively identify threats that evaded automated detection",
+    "C) To replace incident response teams",
+    "D) To eliminate false positives"
+  ],
+  "answer": "B",
+  "explanation": "Threat hunting proactively searches for threats that may have bypassed automated security controls, improving overall detection capabilities. It doesn't replace incident response teams, primarily focus on cost reduction, or eliminate false positives."
+},
+{
+  "question number": "84",
+  "domain": "Security Operations and Monitoring",
+  "question": "Which factor is most important when selecting security monitoring tools?",
+  "options": [
+    "A) Lowest cost",
+    "B) Integration capabilities with existing infrastructure",
+    "C) Vendor reputation only",
+    "D) Number of features"
+  ],
+  "answer": "B",
+  "explanation": "Integration capabilities ensure that security tools can work effectively with existing infrastructure and share information, providing comprehensive security coverage. While cost, reputation, and features are considerations, integration is critical for operational effectiveness."
+},
+{
+  "question number": "85",
+  "domain": "Security Operations and Monitoring",
+  "question": "What is the primary purpose of implementing security data retention policies?",
+  "options": [
+    "A) To reduce storage costs",
+    "B) To balance security needs with legal and regulatory requirements",
+    "C) To improve system performance",
+    "D) To simplify data management"
+  ],
+  "answer": "B",
+  "explanation": "Security data retention policies balance the need to maintain security data for investigation and compliance purposes with legal requirements and practical constraints. While they may affect costs and performance, their primary purpose is ensuring appropriate data governance."
+},
+{
+  "question number": "86",
+  "domain": "Incident Response",
+  "question": "What is the most critical factor for successful incident response?",
+  "options": [
+    "A) Having the most advanced security tools",
+    "B) Proper preparation and planning",
+    "C) Large incident response team",
+    "D) Expensive forensic software"
+  ],
+  "answer": "B",
+  "explanation": "Proper preparation and planning, including documented procedures, trained personnel, and established communication channels, are the foundation of effective incident response. Tools, team size, and software are supporting elements but not the most critical factor."
+},
+{
+  "question number": "87",
+  "domain": "Incident Response",
+  "question": "Which information is most important to collect during the initial incident assessment?",
+  "options": [
+    "A) Complete system logs",
+    "B) Scope, impact, and affected systems",
+    "C) Root cause analysis",
+    "D) Detailed forensic evidence"
+  ],
+  "answer": "B",
+  "explanation": "During initial assessment, understanding the scope, impact, and affected systems helps prioritize response efforts and make containment decisions. Complete logs, root cause analysis, and detailed forensics come later in the process."
+},
+{
+  "question number": "88",
+  "domain": "Incident Response",
+  "question": "What is the primary goal of the incident response eradication phase?",
+  "options": [
+    "A) To identify the incident source",
+    "B) To remove the threat from the environment",
+    "C) To restore normal operations",
+    "D) To prevent future incidents"
+  ],
+  "answer": "B",
+  "explanation": "The eradication phase focuses on removing the threat, malware, or vulnerability that caused the incident. Identifying the source occurs during investigation, restoration happens in the recovery phase, and prevention is addressed in lessons learned."
+},
+{
+  "question number": "89",
+  "domain": "Incident Response",
+  "question": "Which communication principle is most important during incident response?",
+  "options": [
+    "A) Communicate only with technical staff",
+    "B) Provide regular updates to stakeholders",
+    "C) Avoid communication until the incident is resolved",
+    "D) Communicate only through email"
+  ],
+  "answer": "B",
+  "explanation": "Regular stakeholder communication maintains awareness and support during incident response. Limiting communication to technical staff, avoiding communication, or relying solely on email can hinder effective response coordination."
+},
+{
+  "question number": "90",
+  "domain": "Incident Response",
+  "question": "What is the primary purpose of evidence collection during incident response?",
+  "options": [
+    "A) To blame individuals",
+    "B) To support legal proceedings and root cause analysis",
+    "C) To satisfy regulatory requirements only",
+    "D) To slow down the response process"
+  ],
+  "answer": "B",
+  "explanation": "Evidence collection supports potential legal proceedings, enables thorough root cause analysis, and helps improve future incident response. It's not for assigning blame, doesn't only serve regulatory purposes, and shouldn't slow response efforts."
+},
+{
+  "question number": "91",
+  "domain": "Incident Response",
+  "question": "Which factor is most important when deciding on incident containment strategies?",
+  "options": [
+    "A) Cost of containment",
+    "B) Business impact vs. security risk",
+    "C) Available staff resources",
+    "D) Vendor recommendations"
+  ],
+  "answer": "B",
+  "explanation": "Containment decisions must balance business impact (such as system availability) against security risk (such as threat spread). While cost, resources, and vendor recommendations are considerations, the primary factor is minimizing overall organizational risk."
+},
+{
+  "question number": "92",
+  "domain": "Incident Response",
+  "question": "What is the most effective approach for maintaining incident response team readiness?",
+  "options": [
+    "A) Annual training sessions",
+    "B) Regular tabletop exercises and simulations",
+    "C) Reading incident response documentation",
+    "D) Attending security conferences"
+  ],
+  "answer": "B",
+  "explanation": "Regular tabletop exercises and simulations provide hands-on practice with incident response procedures, helping teams identify gaps and improve coordination. Annual training, documentation review, and conferences are valuable but less effective for maintaining operational readiness."
+},
+{
+  "question number": "93",
+  "domain": "Incident Response",
+  "question": "Which tool is most valuable for preserving digital evidence during incident response?",
+  "options": [
+    "A) Antivirus software",
+    "B) Forensic imaging tools",
+    "C) Log analysis tools",
+    "D) Network monitoring tools"
+  ],
+  "answer": "B",
+  "explanation": "Forensic imaging tools create bit-for-bit copies of digital media, preserving evidence in a legally admissible format. While antivirus, log analysis, and network monitoring tools are useful for investigation, they don't preserve evidence with the same integrity."
+},
+{
+  "question number": "94",
+  "domain": "Incident Response",
+  "question": "What is the primary benefit of implementing an incident response retainer with external experts?",
+  "options": [
+    "A) To reduce internal staffing costs",
+    "B) To ensure immediate access to specialized expertise",
+    "C) To eliminate the need for internal incident response capabilities",
+    "D) To satisfy regulatory requirements"
+  ],
+  "answer": "B",
+  "explanation": "Incident response retainers provide immediate access to specialized expertise and additional resources during major incidents. They don't replace internal capabilities, aren't primarily for cost reduction, and aren't required by regulations."
+},
+{
+  "question number": "95",
+  "domain": "Incident Response",
+  "question": "Which metric is most useful for measuring incident response program maturity?",
+  "options": [
+    "A) Number of incidents handled",
+    "B) Mean time to containment",
+    "C) Cost per incident",
+    "D) Number of team members"
+  ],
+  "answer": "B",
+  "explanation": "Mean time to containment measures how quickly the team can limit incident impact, reflecting both process maturity and team effectiveness. Incident volume, costs, and team size are operational metrics but don't directly measure program maturity."
+},
+{
+  "question number": "96",
+  "domain": "Incident Response",
+  "question": "What is the primary purpose of incident response playbooks?",
+  "options": [
+    "A) To document past incidents",
+    "B) To provide step-by-step response procedures",
+    "C) To assign blame for incidents",
+    "D) To satisfy audit requirements"
+  ],
+  "answer": "B",
+  "explanation": "Incident response playbooks provide standardized, step-by-step procedures for handling specific types of incidents, ensuring consistent and effective response. They're not for documenting past incidents, assigning blame, or primarily for audit purposes."
+},
+{
+  "question number": "97",
+  "domain": "Incident Response",
+  "question": "Which approach is most effective for handling incidents involving cloud services?",
+  "options": [
+    "A) Treat them the same as on-premises incidents",
+    "B) Develop cloud-specific response procedures",
+    "C) Rely entirely on cloud provider support",
+    "D) Avoid using cloud services"
+  ],
+  "answer": "B",
+  "explanation": "Cloud environments have unique characteristics (shared responsibility models, different access methods, etc.) that require specialized response procedures. While provider support is valuable, organizations need their own cloud-specific incident response capabilities."
+},
+{
+  "question number": "98",
+  "domain": "Incident Response",
+  "question": "What is the most important consideration when communicating with external parties during an incident?",
+  "options": [
+    "A) Providing complete technical details",
+    "B) Maintaining confidentiality while meeting legal obligations",
+    "C) Minimizing communication to avoid liability",
+    "D) Communicating only through legal counsel"
+  ],
+  "answer": "B",
+  "explanation": "External communication must balance confidentiality concerns with legal and regulatory notification requirements. Providing excessive detail, avoiding communication, or routing everything through legal counsel can hinder effective incident response."
+},
+{
+  "question number": "99",
+  "domain": "Incident Response",
+  "question": "Which factor is most critical for successful incident response coordination?",
+  "options": [
+    "A) Having the latest security tools",
+    "B) Clear roles, responsibilities, and communication channels",
+    "C) Large incident response budget",
+    "D) Centralized incident response location"
+  ],
+  "answer": "B",
+  "explanation": "Clear roles, responsibilities, and communication channels ensure effective coordination during high-stress incident response situations. While tools, budget, and location are important, clear organization and communication are most critical for success."
+},
+{
+  "question number": "100",
+  "domain": "Incident Response",
+  "question": "What is the primary objective of incident response lessons learned sessions?",
+  "options": [
+    "A) To identify personnel to blame",
+    "B) To improve future incident response capabilities",
+    "C) To satisfy regulatory requirements",
+    "D) To document incident costs"
+  ],
+  "answer": "B",
+  "explanation": "Lessons learned sessions focus on improving future incident response by identifying process gaps, training needs, and areas for improvement. They're not for assigning blame, primarily satisfying regulations, or documenting costs."
+},
+[
+  {
+    "question number": "101",
+    "domain": "Vulnerability Management",
+    "question": "Which type of security assessment focuses on identifying the potential impact of a successful attack?",
+    "options": [
+      "A) Vulnerability scan",
+      "B) Penetration test",
+      "C) Risk assessment",
+      "D) Compliance audit"
+    ],
+    "answer": "C",
+    "explanation": "A risk assessment evaluates both the likelihood and potential impact of threats and vulnerabilities to an organization's assets. Vulnerability scans identify weaknesses, penetration tests exploit them, and compliance audits check adherence to standards."
+  },
+  {
+    "question number": "102",
+    "domain": "Vulnerability Management",
+    "question": "What is the primary goal of continuous vulnerability monitoring?",
+    "options": [
+      "A) To replace periodic vulnerability scans",
+      "B) To provide real-time visibility into new vulnerabilities",
+      "C) To automate patch management",
+      "D) To reduce the cost of security audits"
+    ],
+    "answer": "B",
+    "explanation": "Continuous vulnerability monitoring aims to provide ongoing, real-time awareness of newly discovered vulnerabilities and changes in an organization's security posture, enabling proactive remediation. It complements, rather than replaces, periodic scans, and while it may aid patch management, it's not its primary goal."
+  },
+  {
+    "question number": "103",
+    "domain": "Vulnerability Management",
+    "question": "Which standard provides a common language for expressing vulnerabilities and their impact?",
+    "options": [
+      "A) ISO 27001",
+      "B) PCI DSS",
+      "C) CVSS",
+      "D) GDPR"
+    ],
+    "answer": "C",
+    "explanation": "The Common Vulnerability Scoring System (CVSS) provides a standardized, open, and universally recognized method for communicating vulnerability characteristics and their impacts. ISO 27001 is a security management standard, PCI DSS is a payment card industry standard, and GDPR is a data protection regulation."
+  },
+  {
+    "question number": "104",
+    "domain": "Vulnerability Management",
+    "question": "What is the primary benefit of a 'bug bounty' program?",
+    "options": [
+      "A) It eliminates the need for internal security teams",
+      "B) It leverages external researchers to find vulnerabilities",
+      "C) It provides free security audits",
+      "D) It automates all vulnerability remediation"
+    ],
+    "answer": "B",
+    "explanation": "Bug bounty programs incentivize ethical hackers and security researchers to discover and responsibly disclose vulnerabilities, leveraging a wider pool of expertise than internal teams alone. They don't replace internal teams or provide entirely free audits."
+  },
+  {
+    "question number": "105",
+    "domain": "Vulnerability Management",
+    "question": "Which of the following best describes a 'zero-day' vulnerability?",
+    "options": [
+      "A) A vulnerability that has been publicly disclosed for zero days",
+      "B) A vulnerability for which no patch or fix is yet available",
+      "C) A vulnerability with zero impact on affected systems",
+      "D) A vulnerability discovered within zero days of system deployment"
+    ],
+    "answer": "B",
+    "explanation": "A zero-day vulnerability is a software flaw that is unknown to the vendor and for which no patch or fix has been released, leaving systems vulnerable to attack. It is called 'zero-day' because developers have had zero days to fix it since it became publicly known."
+  },
+  {
+    "question number": "106",
+    "domain": "Vulnerability Management",
+    "question": "What is the primary purpose of a 'vulnerability management program'?",
+    "options": [
+      "A) To simply scan for vulnerabilities periodically",
+      "B) To identify, prioritize, and remediate security weaknesses systematically",
+      "C) To outsource all security responsibilities to a third party",
+      "D) To only focus on critical vulnerabilities"
+    ],
+    "answer": "B",
+    "explanation": "A comprehensive vulnerability management program involves a continuous cycle of identifying, assessing, prioritizing, treating, and reporting on security vulnerabilities to reduce an organization's attack surface and overall risk. It goes beyond simple scanning."
+  },
+  {
+    "question number": "107",
+    "domain": "Vulnerability Management",
+    "question": "When performing a web application vulnerability scan, which finding would typically indicate a Cross-Site Request Forgery (CSRF) vulnerability?",
+    "options": [
+      "A) Unsanitized user input in a search bar",
+      "B) Missing anti-CSRF tokens in form submissions",
+      "C) Clear-text credentials in the HTTP header",
+      "D) Outdated JavaScript library with known vulnerabilities"
+    ],
+    "answer": "B",
+    "explanation": "CSRF vulnerabilities occur when a web application allows an attacker to trick a user into performing actions they didn't intend. The absence of anti-CSRF tokens, which are unique, secret, and unpredictable values embedded in forms, is a common indicator. Unsanitized input relates to XSS/injection, clear-text credentials to insecure transmission, and outdated libraries to general software vulnerabilities."
+  },
+  {
+    "question number": "108",
+    "domain": "Vulnerability Management",
+    "question": "Which tool would be most effective for identifying misconfigurations and compliance deviations in cloud environments?",
+    "options": [
+      "A) Traditional network vulnerability scanner",
+      "B) Cloud Security Posture Management (CSPM) tool",
+      "C) On-premises SIEM system",
+      "D) Hardware security module (HSM)"
+    ],
+    "answer": "B",
+    "explanation": "Cloud Security Posture Management (CSPM) tools are specifically designed to continuously monitor cloud environments for misconfigurations, compliance violations, and security risks in cloud infrastructure. Traditional scanners are less effective for cloud-specific issues, SIEMs aggregate logs, and HSMs manage cryptographic keys."
+  },
+  {
+    "question number": "109",
+    "domain": "Vulnerability Management",
+    "question": "What is the primary challenge associated with vulnerability management in large, complex IT environments?",
+    "options": [
+      "A) Lack of skilled personnel",
+      "B) Managing a high volume of vulnerabilities across diverse assets",
+      "C) High cost of scanning tools",
+      "D) Difficulty in obtaining vendor patches"
+    ],
+    "answer": "B",
+    "explanation": "The sheer volume of assets, different operating systems, applications, and network devices, coupled with the constant emergence of new vulnerabilities, makes managing and prioritizing them a significant challenge in large, complex environments."
+  },
+  {
+    "question number": "110",
+    "domain": "Vulnerability Management",
+    "question": "Which of the following is a key characteristic of a 'risk-based vulnerability management' approach?",
+    "options": [
+      "A) Patching all vulnerabilities as quickly as possible",
+      "B) Prioritizing remediation efforts based on potential impact and likelihood of exploitation",
+      "C) Only focusing on vulnerabilities with CVEs",
+      "D) Delegating all vulnerability management to IT operations"
+    ],
+    "answer": "B",
+    "explanation": "Risk-based vulnerability management prioritizes remediation efforts by considering the business impact of a successful exploit and the likelihood of the vulnerability being exploited, rather than just its technical severity. This ensures resources are focused on the highest-risk areas."
+  },
+  {
+    "question number": "111",
+    "domain": "Vulnerability Management",
+    "question": "What is the primary benefit of integrating vulnerability scanning into the CI/CD pipeline?",
+    "options": [
+      "A) It eliminates the need for security testing in production",
+      "B) It enables early detection and remediation of vulnerabilities in code",
+      "C) It automates the deployment of all security patches",
+      "D) It reduces the overall size of application binaries"
+    ],
+    "answer": "B",
+    "explanation": "Integrating vulnerability scanning (and other security testing) into the Continuous Integration/Continuous Delivery (CI/CD) pipeline allows developers to find and fix security flaws early in the development lifecycle, significantly reducing the cost and effort of remediation later on. It doesn't eliminate all production testing."
+  },
+  {
+    "question number": "112",
+    "domain": "Vulnerability Management",
+    "question": "Which type of vulnerability is often addressed through security awareness training?",
+    "options": [
+      "A) SQL injection vulnerabilities",
+      "B) Buffer overflow vulnerabilities",
+      "C) Social engineering vulnerabilities",
+      "D) Unpatched software vulnerabilities"
+    ],
+    "answer": "C",
+    "explanation": "Social engineering attacks, such as phishing or pretexting, exploit human vulnerabilities rather than technical ones. Security awareness training helps users recognize and resist such attacks. The other options are technical vulnerabilities."
+  },
+  {
+    "question number": "113",
+    "domain": "Vulnerability Management",
+    "question": "What is the primary role of a 'threat intelligence platform' in vulnerability management?",
+    "options": [
+      "A) To automatically apply patches to systems",
+      "B) To consolidate and analyze threat data to inform security decisions",
+      "C) To perform penetration tests on demand",
+      "D) To manage user access controls for security tools"
+    ],
+    "answer": "B",
+    "explanation": "Threat intelligence platforms collect, process, and analyze vast amounts of threat data (IOCs, TTPs, actor profiles) to provide actionable insights that help organizations understand current threats and prioritize vulnerabilities. They don't directly patch systems or perform penetration tests."
+  },
+  {
+    "question number": "114",
+    "domain": "Vulnerability Management",
+    "question": "When assessing the criticality of a vulnerability, which factor best represents its 'exploitability'?",
+    "options": [
+      "A) The number of affected users",
+      "B) The existence of public exploit code or a known attack vector",
+      "C) The data classification of affected assets",
+      "D) The compliance implications of the vulnerability"
+    ],
+    "answer": "B",
+    "explanation": "Exploitability refers to how easily and reliably a vulnerability can be leveraged by an attacker. The presence of publicly available exploit code, or a well-understood attack vector, indicates high exploitability. The other options relate to impact or compliance, not directly to how easy it is to exploit."
+  },
+  {
+    "question number": "115",
+    "domain": "Vulnerability Management",
+    "question": "Which of the following is a common challenge when performing vulnerability scans on operational technology (OT) systems?",
+    "options": [
+      "A) OT systems are generally more secure than IT systems",
+      "B) Scans can disrupt critical industrial processes",
+      "C) OT systems have very few vulnerabilities",
+      "D) Compliance regulations do not apply to OT"
+    ],
+    "answer": "B",
+    "explanation": "Operational Technology (OT) systems, used in industrial control systems (ICS), are often highly sensitive, and active scanning can potentially disrupt critical processes or even cause physical damage. This necessitates passive or carefully planned, non-disruptive scanning methods."
+  },
+  {
+    "question number": "116",
+    "domain": "Vulnerability Management",
+    "question": "What is the primary benefit of using a 'security validation' or 'breach and attack simulation (BAS)' tool?",
+    "options": [
+      "A) It performs real-time antivirus scans",
+      "B) It validates the effectiveness of security controls by simulating attacks",
+      "C) It automates all security policy enforcement",
+      "D) It generates new vulnerability patches"
+    ],
+    "answer": "B",
+    "explanation": "Breach and Attack Simulation (BAS) tools continuously and safely simulate real-world attack techniques against an organization's security infrastructure to validate whether security controls are effective and identify gaps. They focus on validating existing controls, not generating patches or enforcing policies."
+  },
+  {
+    "question number": "117",
+    "domain": "Vulnerability Management",
+    "question": "Which approach helps manage vulnerabilities in third-party software that an organization cannot directly patch?",
+    "options": [
+      "A) Request the vendor to provide source code for patching",
+      "B) Implement compensating controls and secure configurations around the software",
+      "C) Discontinue use of all third-party software",
+      "D) Accept the risk without mitigation"
+    ],
+    "answer": "B",
+    "explanation": "When direct patching of third-party software isn't possible, implementing compensating controls (e.g., network segmentation, strict access controls, enhanced monitoring) and hardening configurations around the software can significantly reduce the risk posed by known vulnerabilities."
+  },
+  {
+    "question number": "118",
+    "domain": "Vulnerability Management",
+    "question": "What is the primary purpose of a 'vulnerability disclosure program'?",
+    "options": [
+      "A) To legally prosecute ethical hackers",
+      "B) To provide a clear channel for external researchers to report vulnerabilities",
+      "C) To publicly announce all discovered vulnerabilities immediately",
+      "D) To sell vulnerability information to other organizations"
+    ],
+    "answer": "B",
+    "explanation": "A vulnerability disclosure program (VDP) defines a formal process for external security researchers and the public to responsibly report security vulnerabilities to an organization, enabling the organization to fix them before they are maliciously exploited. It encourages responsible disclosure, not prosecution or immediate public disclosure."
+  },
+  {
+    "question number": "119",
+    "domain": "Vulnerability Management",
+    "question": "Which metric is most useful for reporting the overall health of a vulnerability management program to executive leadership?",
+    "options": [
+      "A) Number of unique vulnerabilities found",
+      "B) Average time to remediate critical vulnerabilities",
+      "C) Number of scans performed per month",
+      "D) Total budget spent on vulnerability tools"
+    ],
+    "answer": "B",
+    "explanation": "The average time to remediate critical vulnerabilities (MTTR for criticals) provides a clear, actionable metric for leadership on how effectively the program is reducing the organization's highest risks. Other options are more operational or cost-related metrics."
+  },
+  {
+    "question number": "120",
+    "domain": "Vulnerability Management",
+    "question": "What is the concept of 'security debt' in vulnerability management?",
+    "options": [
+      "A) The cost of purchasing security tools",
+      "B) The cumulative impact of unaddressed or poorly managed security vulnerabilities",
+      "C) The money owed to security vendors",
+      "D) The budget allocated for security audits"
+    ],
+    "answer": "B",
+    "explanation": "Security debt refers to the accumulation of security vulnerabilities and weaknesses that are deferred or not properly addressed, leading to increased risk and potential future costs. It's an analogy to technical debt in software development."
+  },
+  {
+    "question number": "121",
+    "domain": "Vulnerability Management",
+    "question": "When assessing the attack surface of an application, which of the following would be considered an 'external' attack surface element?",
+    "options": [
+      "A) Internal API endpoints not exposed to the internet",
+      "B) Admin console only accessible from the internal network",
+      "C) A public-facing web server",
+      "D) Database server within a segmented network"
+    ],
+    "answer": "C",
+    "explanation": "External attack surface elements are those directly accessible from outside the organization's network, such as public-facing web servers, exposed APIs, or cloud storage buckets. Internal elements are only accessible from within the network."
+  },
+  {
+    "question number": "122",
+    "domain": "Vulnerability Management",
+    "question": "Which type of intelligence focuses on the TTPs (Tactics, Techniques, and Procedures) used by specific threat actors?",
+    "options": [
+      "A) Strategic threat intelligence",
+      "B) Technical threat intelligence",
+      "C) Operational threat intelligence",
+      "D) Tactical threat intelligence"
+    ],
+    "answer": "C",
+    "explanation": "Operational threat intelligence provides details on the 'how' of attacks, focusing on specific TTPs, campaigns, and adversary infrastructure. Strategic is high-level, technical is indicators of compromise, and tactical is immediate action-oriented."
+  },
+  {
+    "question number": "123",
+    "domain": "Vulnerability Management",
+    "question": "What is the primary benefit of a 'coordinated vulnerability disclosure' process?",
+    "options": [
+      "A) It allows immediate public release of vulnerability details",
+      "B) It ensures vendors have time to develop patches before public disclosure",
+      "C) It prevents any information about vulnerabilities from being shared",
+      "D) It is only used for government-discovered vulnerabilities"
+    ],
+    "answer": "B",
+    "explanation": "Coordinated vulnerability disclosure (CVD) is a process where a vulnerability discoverer privately informs the affected vendor, allowing them a reasonable period to develop and release a patch before the vulnerability is publicly disclosed. This minimizes risk to end-users."
+  },
+  {
+    "question number": "124",
+    "domain": "Vulnerability Management",
+    "question": "When performing an internal vulnerability scan, what is the advantage of using a 'credentialed' scan over a 'non-credentialed' scan?",
+    "options": [
+      "A) Credentialed scans are faster to execute",
+      "B) Credentialed scans only identify network-level vulnerabilities",
+      "C) Credentialed scans can identify missing patches and misconfigurations on the host",
+      "D) Credentialed scans do not require network access"
+    ],
+    "answer": "C",
+    "explanation": "A credentialed scan provides the scanner with authenticated access to the target system (e.g., using administrator credentials), allowing it to perform a much deeper and more accurate assessment of software versions, missing patches, misconfigurations, and local vulnerabilities that a non-credentialed scan (which only sees the network surface) would miss."
+  },
+  {
+    "question number": "125",
+    "domain": "Vulnerability Management",
+    "question": "Which type of vulnerability is primarily associated with insecure direct object references (IDOR)?",
+    "options": [
+      "A) Injection vulnerability",
+      "B) Access control vulnerability",
+      "C) Cross-site scripting (XSS)",
+      "D) Server-side request forgery (SSRF)"
+    ],
+    "answer": "B",
+    "explanation": "Insecure direct object references (IDOR) are a type of access control vulnerability where an application exposes a direct reference to an internal implementation object, allowing attackers to manipulate these references to access unauthorized data or functionality. Injection is about code execution, XSS is client-side script execution, and SSRF is server-side request manipulation."
+  },
+  {
+    "question number": "126",
+    "domain": "Security Operations",
+    "question": "Which security principle is enforced by a 'jump box' or 'jump server' in a secure network architecture?",
+    "options": [
+      "A) Data encryption",
+      "B) Least privilege and network segmentation",
+      "C) High availability",
+      "D) Intrusion detection"
+    ],
+    "answer": "B",
+    "explanation": "A jump box acts as an intermediary, hardened server that administrators must connect to first before accessing sensitive systems. This enforces network segmentation (isolating sensitive systems) and can enforce least privilege (by controlling which users can access which sensitive systems through the jump box and with what permissions)."
+  },
+  {
+    "question number": "127",
+    "domain": "Security Operations",
+    "question": "What is the primary role of a Security Orchestration, Automation, and Response (SOAR) platform in a SOC?",
+    "options": [
+      "A) To replace security analysts entirely",
+      "B) To automate repetitive security tasks and streamline incident response workflows",
+      "C) To collect and analyze all network traffic data",
+      "D) To manage vulnerability scanning schedules"
+    ],
+    "answer": "B",
+    "explanation": "SOAR platforms automate and orchestrate security operations tasks, such as enrichment of alerts, threat containment, and data collection, thereby improving efficiency and enabling faster incident response. They augment, not replace, analysts and focus on workflow automation rather than core data collection or scanning."
+  },
+  {
+    "question number": "128",
+    "domain": "Security Operations",
+    "question": "Which type of security control is a 'honeypot' primarily classified as?",
+    "options": [
+      "A) Preventative control",
+      "B) Detective control",
+      "C) Corrective control",
+      "D) Compensating control"
+    ],
+    "answer": "B",
+    "explanation": "A honeypot is a decoy system designed to attract and trap attackers, allowing security teams to detect attacks, collect intelligence on adversary tactics, and learn about new threats. It's a detective control because its primary purpose is to identify malicious activity, not to prevent it."
+  },
+  {
+    "question number": "129",
+    "domain": "Security Operations",
+    "question": "What is the primary benefit of implementing 'immutable infrastructure' in a security context?",
+    "options": [
+      "A) Allows for easy manual configuration changes",
+      "B) Reduces the risk of configuration drift and unauthorized changes",
+      "C) Speeds up manual system patching",
+      "D) Eliminates the need for security monitoring"
+    ],
+    "answer": "B",
+    "explanation": "Immutable infrastructure means that once a server or component is deployed, it is never modified. Any change requires deploying a new instance, which significantly reduces configuration drift, ensures consistency, and minimizes the risk of unauthorized modifications or unpatched systems. This enhances security by making systems more predictable and harder for attackers to persist on."
+  },
+  {
+    "question number": "130",
+    "domain": "Security Operations",
+    "question": "Which type of threat detection relies on established patterns of malicious activity?",
+    "options": [
+      "A) Anomaly-based detection",
+      "B) Heuristic-based detection",
+      "C) Signature-based detection",
+      "D) Behavioral analysis"
+    ],
+    "answer": "C",
+    "explanation": "Signature-based detection identifies threats by matching observed patterns (signatures) against a database of known malicious patterns, such as specific malware code or attack sequences. Anomaly, heuristic, and behavioral detection look for deviations from normal."
+  },
+  {
+    "question number": "131",
+    "domain": "Security Operations",
+    "question": "What is the primary security function of Network Access Control (NAC)?",
+    "options": [
+      "A) To encrypt all network traffic",
+      "B) To authenticate and authorize devices connecting to the network",
+      "C) To prevent all denial-of-service attacks",
+      "D) To manage IP address assignments"
+    ],
+    "answer": "B",
+    "explanation": "Network Access Control (NAC) solutions authenticate and authorize devices attempting to connect to a network, enforcing security policies to ensure only compliant and trusted devices gain access. It's a key component for endpoint security and network segmentation."
+  },
+  {
+    "question number": "132",
+    "domain": "Security Operations",
+    "question": "Which security operations task typically involves creating 'baselines' of normal system behavior?",
+    "options": [
+      "A) Patch management",
+      "B) Forensic analysis",
+      "C) Anomaly detection",
+      "D) Penetration testing"
+    ],
+    "answer": "C",
+    "explanation": "Anomaly detection systems work by first establishing a baseline of normal system or user behavior. Any significant deviation from this baseline is then flagged as a potential anomaly or threat. Patch management and penetration testing serve different purposes, and forensic analysis is post-incident."
+  },
+  {
+    "question number": "133",
+    "domain": "Security Operations",
+    "question": "What is the primary benefit of integrating endpoint detection and response (EDR) with a SIEM system?",
+    "options": [
+      "A) EDR replaces the need for a SIEM",
+      "B) It provides richer endpoint telemetry for SIEM correlation and analysis",
+      "C) It automates all endpoint remediation actions",
+      "D) It only focuses on network-level threats"
+    ],
+    "answer": "B",
+    "explanation": "Integrating EDR with a SIEM enriches the SIEM's data with detailed endpoint telemetry (process activity, file changes, network connections from endpoints). This provides a more comprehensive view of incidents, enabling better correlation, analysis, and threat hunting."
+  },
+  {
+    "question number": "134",
+    "domain": "Security Operations",
+    "question": "Which of the following is a common challenge when performing log analysis on distributed systems?",
+    "options": [
+      "A) Logs are too small to analyze",
+      "B) Time synchronization across different systems",
+      "C) Lack of relevant data in logs",
+      "D) Manual log collection is always preferred"
+    ],
+    "answer": "B",
+    "explanation": "In distributed systems, accurately correlating events across different logs is highly dependent on precise time synchronization. Inconsistent timestamps can make it very difficult to reconstruct event sequences and identify attack chains. Other challenges include log volume, format variations, and data relevance."
+  },
+  {
+    "question number": "135",
+    "domain": "Security Operations",
+    "question": "What is the primary purpose of 'Deception Technology' in security operations?",
+    "options": [
+      "A) To provide fake user credentials to attackers",
+      "B) To lure attackers into controlled environments for detection and intelligence gathering",
+      "C) To encrypt all network communications automatically",
+      "D) To automatically patch all system vulnerabilities"
+    ],
+    "answer": "B",
+    "explanation": "Deception technology uses honeypots, lures, and decoys to misdirect attackers away from real assets and into controlled environments. This allows security teams to detect their presence early, gather intelligence on their methods, and potentially contain them before they reach critical systems."
+  },
+  {
+    "question number": "136",
+    "domain": "Security Operations",
+    "question": "Which security operations role is primarily responsible for tuning SIEM rules and conducting threat hunts?",
+    "options": [
+      "A) Security Administrator",
+      "B) Incident Responder",
+      "C) Security Analyst (Tier 2/3)",
+      "D) Compliance Officer"
+    ],
+    "answer": "C",
+    "explanation": "Security Analysts at Tier 2 or Tier 3 levels typically possess the deeper technical knowledge and analytical skills required to tune SIEM rules, develop custom detections, and proactively hunt for threats that might evade automated systems. Administrators manage systems, incident responders react to incidents, and compliance officers focus on regulations."
+  },
+  {
+    "question number": "137",
+    "domain": "Security Operations",
+    "question": "What is the primary benefit of implementing a 'zero-trust' security model?",
+    "options": [
+      "A) It assumes all internal network traffic is trustworthy",
+      "B) It eliminates the need for firewalls",
+      "C) It constantly verifies identity and access for every user and device",
+      "D) It relies solely on perimeter security"
+    ],
+    "answer": "C",
+    "explanation": "A zero-trust model operates on the principle of 'never trust, always verify.' It requires continuous verification of every user and device attempting to access resources, regardless of whether they are inside or outside the traditional network perimeter. It does not eliminate firewalls but enhances security beyond them."
+  },
+  {
+    "question number": "138",
+    "domain": "Security Operations",
+    "question": "Which security concept is most relevant to the secure configuration of network devices and operating systems?",
+    "options": [
+      "A) Data encryption",
+      "B) Hardening",
+      "C) Penetration testing",
+      "D) Threat intelligence"
+    ],
+    "answer": "B",
+    "explanation": "Hardening refers to the process of securing a system by reducing its attack surface and eliminating unnecessary functions, services, or configurations. This involves applying secure configurations to operating systems, applications, and network devices to minimize vulnerabilities. Data encryption protects data, penetration testing identifies vulnerabilities, and threat intelligence provides context."
+  },
+  {
+    "question number": "139",
+    "domain": "Security Operations",
+    "question": "What is the main advantage of 'security automation' in a SOC?",
+    "options": [
+      "A) It increases the number of false positives",
+      "B) It allows analysts to focus on complex threats, improving efficiency",
+      "C) It makes security incidents easier to ignore",
+      "D) It only works for very simple security tasks"
+    ],
+    "answer": "B",
+    "explanation": "Security automation handles repetitive, mundane tasks, freeing up security analysts to concentrate on more complex investigations, threat hunting, and strategic initiatives. This significantly improves the efficiency and effectiveness of the SOC, reducing alert fatigue and enabling faster response."
+  },
+  {
+    "question number": "140",
+    "domain": "Security Operations",
+    "question": "Which security tool is primarily used to enforce security policies and filter traffic at the network perimeter?",
+    "options": [
+      "A) Host-based firewall",
+      "B) Network firewall",
+      "C) Antivirus software",
+      "D) Data Loss Prevention (DLP) solution"
+    ],
+    "answer": "B",
+    "explanation": "A network firewall (often a next-generation firewall or a traditional packet-filtering firewall) is positioned at the network perimeter to inspect and filter incoming and outgoing traffic based on predefined security rules and policies, enforcing perimeter security. Host-based firewalls protect individual systems, antivirus protects against malware, and DLP prevents data exfiltration."
+  },
+  {
+    "question number": "141",
+    "domain": "Security Operations",
+    "question": "What is the primary benefit of using a Security Information and Event Management (SIEM) system for compliance reporting?",
+    "options": [
+      "A) It automates all compliance audits",
+      "B) It centralizes log data for simplified auditing and reporting",
+      "C) It creates new compliance regulations",
+      "D) It eliminates the need for manual data collection"
+    ],
+    "answer": "B",
+    "explanation": "SIEM systems aggregate and normalize log data from various sources, making it easier to search, analyze, and generate reports required for regulatory compliance and internal audits. While it doesn't automate the entire audit process or create regulations, it significantly streamlines the data collection and reporting aspects."
+  },
+  {
+    "question number": "142",
+    "domain": "Security Operations",
+    "question": "Which security concept dictates that a system should have only the essential services and applications running?",
+    "options": [
+      "A) Defense in depth",
+      "B) Principle of least functionality",
+      "C) Separation of duties",
+      "D) High availability"
+    ],
+    "answer": "B",
+    "explanation": "The principle of least functionality dictates that systems should be configured to provide only the minimum necessary functions, services, and applications required for their purpose. This reduces the attack surface and potential vulnerabilities. Defense in depth is a layered approach, separation of duties divides critical tasks, and high availability ensures uptime."
+  },
+  {
+    "question number": "143",
+    "domain": "Security Operations",
+    "question": "What is the primary purpose of 'Security Monitoring' in a SOC?",
+    "options": [
+      "A) To ensure all systems are patched",
+      "B) To detect and analyze security events and alerts in real-time",
+      "C) To manage user accounts and passwords",
+      "D) To conduct ethical hacking exercises"
+    ],
+    "answer": "B",
+    "explanation": "Security monitoring involves the continuous surveillance of an organization's systems, networks, and data for security events, anomalies, and potential threats, with the goal of detecting and responding to incidents in a timely manner. It's a core function of a SOC."
+  },
+  {
+    "question number": "144",
+    "domain": "Security Operations",
+    "question": "Which security measure is most effective at preventing data breaches caused by unauthorized USB device usage?",
+    "options": [
+      "A) Network intrusion detection system (NIDS)",
+      "B) Endpoint Device Control (e.g., blocking USB ports)",
+      "C) Web application firewall (WAF)",
+      "D) Email filtering solutions"
+    ],
+    "answer": "B",
+    "explanation": "Endpoint Device Control solutions, often part of Endpoint Detection and Response (EDR) or Unified Endpoint Management (UEM) platforms, can specifically control or block the use of removable media like USB drives, thereby preventing data exfiltration or malware introduction via these devices. NIDS, WAF, and email filters address different attack vectors."
+  },
+  {
+    "question number": "145",
+    "domain": "Security Operations",
+    "question": "What is the primary challenge in threat hunting?",
+    "options": [
+      "A) Lack of threat intelligence feeds",
+      "B) Difficulty in identifying subtle indicators of compromise (IoCs)",
+      "C) Too many automated security tools",
+      "D) Over-reliance on signature-based detection"
+    ],
+    "answer": "B",
+    "explanation": "Threat hunting is about proactively searching for undetected threats. A key challenge is identifying subtle and often unknown Indicators of Compromise (IoCs) or TTPs that have evaded traditional signature-based or anomaly detection systems, often requiring deep analytical skills and hypothesis testing."
+  },
+  {
+    "question number": "146",
+    "domain": "Security Operations",
+    "question": "Which type of security control is 'patch management' primarily considered?",
+    "options": [
+      "A) Detective control",
+      "B) Corrective control",
+      "C) Preventative control",
+      "D) Compensating control"
+    ],
+    "answer": "C",
+    "explanation": "Patch management is a preventative control because it aims to fix known vulnerabilities before they can be exploited by attackers, thereby preventing successful attacks. While it has corrective aspects (fixing flaws), its primary goal is prevention."
+  },
+  {
+    "question number": "147",
+    "domain": "Security Operations",
+    "question": "What is the primary benefit of using a 'security playbook' in a SOC?",
+    "options": [
+      "A) To replace security analysts with automation",
+      "B) To standardize and streamline repeatable security processes and responses",
+      "C) To generate new threat intelligence",
+      "D) To reduce the number of security alerts"
+    ],
+    "answer": "B",
+    "explanation": "Security playbooks provide documented, step-by-step procedures for handling common security events or incidents. They ensure consistent, efficient, and effective responses, reducing human error and improving overall operational maturity. They standardize processes, rather than replacing analysts or generating new intelligence."
+  },
+  {
+    "question number": "148",
+    "domain": "Security Operations",
+    "question": "Which cryptographic concept is used to verify the sender's identity and ensure non-repudiation?",
+    "options": [
+      "A) Symmetric encryption",
+      "B) Hashing",
+      "C) Digital signatures",
+      "D) Steganography"
+    ],
+    "answer": "C",
+    "explanation": "Digital signatures use asymmetric cryptography to provide authenticity (proving the sender's identity), integrity (ensuring the message hasn't been altered), and non-repudiation (preventing the sender from denying they sent the message). Symmetric encryption provides confidentiality, hashing provides integrity, and steganography hides data."
+  },
+  {
+    "question number": "149",
+    "domain": "Security Operations",
+    "question": "What is the primary purpose of 'Security Configuration Management'?",
+    "options": [
+      "A) To allow ad-hoc changes to system configurations",
+      "B) To ensure systems maintain a secure, compliant baseline over time",
+      "C) To only configure new systems securely",
+      "D) To manage software licenses"
+    ],
+    "answer": "B",
+    "explanation": "Security Configuration Management involves defining, establishing, and maintaining consistent, secure baselines for systems and applications, and continuously monitoring them for deviations. This ensures that systems remain hardened and compliant throughout their lifecycle. It actively prevents ad-hoc changes and applies to existing as well as new systems."
+  },
+  {
+    "question number": "150",
+    "domain": "Security Operations",
+    "question": "Which operational challenge often results from an excessive number of low-priority security alerts?",
+    "options": [
+      "A) Increased budget for security tools",
+      "B) Analyst fatigue and missed critical alerts",
+      "C) Improved threat detection accuracy",
+      "D) Reduced need for threat intelligence"
+    ],
+    "answer": "B",
+    "explanation": "An overwhelming volume of low-priority or false-positive alerts can lead to 'alert fatigue' among security analysts, causing them to become desensitized and potentially miss or ignore legitimate, critical alerts, thereby degrading overall detection and response effectiveness."
+  },
+  {
+    "question number": "151",
+    "domain": "Incident Response",
+    "question": "During which phase of the incident response lifecycle is 'root cause analysis' primarily performed?",
+    "options": [
+      "A) Identification",
+      "B) Containment",
+      "C) Eradication",
+      "D) Post-incident activity (Lessons Learned)"
+    ],
+    "answer": "D",
+    "explanation": "Root cause analysis, which aims to determine the underlying reason for an incident, is a key activity in the 'Post-incident Activity' or 'Lessons Learned' phase. It helps prevent recurrence by addressing the fundamental issues, not just the symptoms. Identification, containment, and eradication are active response phases."
+  },
+  {
+    "question number": "152",
+    "domain": "Incident Response",
+    "question": "What is the primary purpose of an 'out-of-band' communication channel during an incident?",
+    "options": [
+      "A) To send encrypted messages to the media",
+      "B) To communicate securely when primary channels may be compromised",
+      "C) To notify all employees about the incident immediately",
+      "D) To conduct video conferences with legal counsel"
+    ],
+    "answer": "B",
+    "explanation": "An out-of-band communication channel (e.g., a dedicated phone line, encrypted messaging app on a separate network) is used when the primary communication infrastructure (email, internal chat) may be compromised by the attacker, ensuring secure and reliable communication among the incident response team and key stakeholders."
+  },
+  {
+    "question number": "153",
+    "domain": "Incident Response",
+    "question": "Which phase of incident response involves actively removing the threat and its artifacts from the affected systems?",
+    "options": [
+      "A) Identification",
+      "B) Containment",
+      "C) Eradication",
+      "D) Recovery"
+    ],
+    "answer": "C",
+    "explanation": "The eradication phase focuses on eliminating the root cause of the incident and removing all traces of the threat (e.g., malware, malicious accounts, backdoors) from the environment. Identification is detection, containment is stopping spread, and recovery is restoring operations."
+  },
+  {
+    "question number": "154",
+    "domain": "Incident Response",
+    "question": "What is the 'kill chain' model in incident response used for?",
+    "options": [
+      "A) To prioritize vulnerabilities based on severity",
+      "B) To describe the stages of a cyberattack and identify intervention points",
+      "C) To automate incident response playbooks",
+      "D) To manage security tool alerts"
+    ],
+    "answer": "B",
+    "explanation": "The 'kill chain' (specifically the Cyber Kill Chain model) describes the typical stages an adversary goes through during an attack, from reconnaissance to exfiltration. Understanding these stages helps incident responders identify opportunities to disrupt and mitigate attacks at various points."
+  },
+  {
+    "question number": "155",
+    "domain": "Incident Response",
+    "question": "Which of the following is a primary consideration when collecting digital evidence during an incident?",
+    "options": [
+      "A) Modifying the original evidence for easier analysis",
+      "B) Ensuring chain of custody and preserving data integrity",
+      "C) Collecting only evidence that proves a specific attacker's guilt",
+      "D) Relying solely on screenshots for documentation"
+    ],
+    "answer": "B",
+    "explanation": "Maintaining chain of custody (documenting who had access to evidence and when) and preserving data integrity (ensuring the evidence is not altered) are crucial for digital evidence to be legally admissible and forensically sound. Modifying evidence, selective collection, or insufficient documentation undermine its value."
+  },
+  {
+    "question number": "156",
+    "domain": "Incident Response",
+    "question": "What is the purpose of 'segmentation' during the containment phase?",
+    "options": [
+      "A) To improve network performance",
+      "B) To isolate affected systems and prevent threat spread",
+      "C) To increase the attack surface",
+      "D) To encrypt all data on the network"
+    ],
+    "answer": "B",
+    "explanation": "During containment, network segmentation (e.g., isolating a compromised subnet) is a critical strategy to prevent an attacker from moving laterally to other parts of the network and to limit the damage caused by an incident."
+  },
+  {
+    "question number": "157",
+    "domain": "Incident Response",
+    "question": "Which of the following is an example of a 'technical control' in incident response?",
+    "options": [
+      "A) An incident response plan document",
+      "B) Security awareness training for employees",
+      "C) Network intrusion prevention system (IPS)",
+      "D) A communication plan for stakeholders"
+    ],
+    "answer": "C",
+    "explanation": "Technical controls are security measures implemented through technology. An IPS is a technical control that actively prevents or blocks malicious network traffic. The other options are administrative or procedural controls."
+  },
+  {
+    "question number": "158",
+    "domain": "Incident Response",
+    "question": "What is the primary objective of the 'lessons learned' meeting after an incident?",
+    "options": [
+      "A) To assign blame to individuals involved in the incident",
+      "B) To identify areas for improvement in the incident response process and overall security posture",
+      "C) To close the incident ticket as quickly as possible",
+      "D) To publish a public report about the incident"
+    ],
+    "answer": "B",
+    "explanation": "Lessons learned meetings are critical for organizational learning. Their primary objective is to review what worked well, what didn't, and what can be improved in future incident responses, and to enhance overall security to prevent similar incidents. Assigning blame is counterproductive."
+  },
+  {
+    "question number": "159",
+    "domain": "Incident Response",
+    "question": "Which type of incident requires rapid response due to potential immediate and severe impact?",
+    "options": [
+      "A) Low-severity malware infection on a non-critical workstation",
+      "B) Phishing attempt detected and blocked by email filter",
+      "C) Ransomware infection encrypting critical production servers",
+      "D) Unauthorized access attempt that failed"
+    ],
+    "answer": "C",
+    "explanation": "A ransomware infection encrypting critical production servers has an immediate and severe business impact (denial of service, data loss) that necessitates a rapid and aggressive incident response to minimize damage. The other scenarios represent lower impact or contained events."
+  },
+  {
+    "question number": "160",
+    "domain": "Incident Response",
+    "question": "What is the primary role of a 'digital forensics' specialist in incident response?",
+    "options": [
+      "A) To provide physical security for data centers",
+      "B) To collect, preserve, and analyze digital evidence for legal or investigative purposes",
+      "C) To manage network infrastructure during an incident",
+      "D) To write new security policies"
+    ],
+    "answer": "B",
+    "explanation": "Digital forensics specialists apply scientific and investigative techniques to collect, preserve, and analyze digital evidence from compromised systems or media in a manner that maintains its integrity and can be admissible in legal proceedings, or used for root cause analysis."
+  },
+  {
+  "question number": "161",
+  "domain": "Incident Response",
+  "question": "Which document outlines the steps and procedures an organization will follow when a security incident occurs?",
+  "options": [
+    "A) Disaster Recovery Plan (DRP)",
+    "B) Business Continuity Plan (BCP)",
+    "C) Incident Response Plan (IRP)",
+    "D) Acceptable Use Policy (AUP)"
+    ],
+    "answer": "C",
+    "explanation": "An Incident Response Plan (IRP) provides a structured and detailed approach for an organization to prepare for, detect, analyze, contain, eradicate, recover from, and post-analyze cybersecurity incidents. DRP and BCP focus on broader business recovery and continuity after disruptions, while AUP defines acceptable user behavior."
+  },
+  {
+    "question number": "162",
+    "domain": "Incident Response",
+    "question": "During the identification phase, which type of data source is often the most critical for initial understanding of an incident?",
+    "options": [
+      "A) Employee interviews",
+      "B) Vendor contracts",
+      "C) Logs from security devices and systems",
+      "D) Financial records"
+    ],
+    "answer": "C",
+    "explanation": "Logs from firewalls, SIEMs, intrusion detection/prevention systems, operating systems, and applications provide crucial real-time and historical data that helps in the initial detection and understanding of a security incident, including what happened, when, and to what extent."
+  },
+  {
+    "question number": "163",
+    "domain": "Incident Response",
+    "question": "What is the primary challenge in responding to incidents in cloud environments?",
+    "options": [
+      "A) Lack of qualified cloud incident responders",
+      "B) Limited access to underlying infrastructure and logs (shared responsibility model)",
+      "C) Cloud incidents are always more severe",
+      "D) Cloud providers handle all incident response"
+    ],
+    "answer": "B",
+    "explanation": "The shared responsibility model in cloud computing means the cloud consumer has limited access and visibility into the underlying infrastructure logs and components managed by the cloud provider, which can complicate incident investigation and response efforts. While providers handle some aspects, the consumer is responsible for security 'in' the cloud."
+  },
+  {
+    "question number": "164",
+    "domain": "Incident Response",
+    "question": "Which forensic principle states that every contact leaves a trace?",
+    "options": [
+      "A) Principle of Least Privilege",
+      "B) Occam's Razor",
+      "C) Locard's Exchange Principle",
+      "D) Defense in Depth"
+    ],
+    "answer": "C",
+    "explanation": "Locard's Exchange Principle states that 'every contact leaves a trace.' In digital forensics, this means that whenever an interaction occurs between two entities (e.g., an attacker and a system), there will be a transfer of material (digital artifacts), which can be used as evidence. The other principles are security or logical principles."
+  },
+  {
+    "question number": "165",
+    "domain": "Incident Response",
+    "question": "What is the primary purpose of 'isolation' during incident containment?",
+    "options": [
+      "A) To permanently disconnect affected systems",
+      "B) To segregate compromised systems from the rest of the network",
+      "C) To make systems inaccessible to the incident response team",
+      "D) To encrypt all data on affected systems"
+    ],
+    "answer": "B",
+    "explanation": "Isolation involves logically or physically separating compromised systems or networks from the rest of the environment to prevent the incident from spreading further and to facilitate investigation and remediation without risking wider contamination."
+  },
+  {
+    "question number": "166",
+    "domain": "Incident Response",
+    "question": "Which type of tabletop exercise focuses on a specific attack scenario and how the team would respond?",
+    "options": [
+      "A) Walkthrough exercise",
+      "B) Functional exercise",
+      "C) Simulation exercise",
+      "D) Discussion-based exercise"
+    ],
+    "answer": "D",
+    "explanation": "Discussion-based exercises (like tabletop exercises) involve team members discussing their roles, responsibilities, and planned responses to a hypothetical scenario. They are good for testing plans and fostering communication. Functional and simulation exercises are more hands-on and realistic."
+  },
+  {
+    "question number": "167",
+    "domain": "Incident Response",
+    "question": "When an incident involves potential legal ramifications, what is the most important consideration for evidence handling?",
+    "options": [
+      "A) Speed of collection over accuracy",
+      "B) Chain of custody documentation",
+      "C) Deleting sensitive data immediately",
+      "D) Notifying law enforcement before internal investigation"
+    ],
+    "answer": "B",
+    "explanation": "Maintaining a meticulous chain of custody is paramount when evidence might be used in legal proceedings. This documentation tracks every person who handled the evidence, when, and for what purpose, ensuring its integrity and admissibility in court. Speed, deletion, or premature external notification are inappropriate."
+  },
+  {
+    "question number": "168",
+    "domain": "Incident Response",
+    "question": "What is the primary benefit of cross-training incident response team members?",
+    "options": [
+      "A) It reduces the overall size of the team",
+      "B) It creates redundancy and flexibility in roles during an incident",
+      "C) It eliminates the need for specialized tools",
+      "D) It speeds up the initial detection phase"
+    ],
+    "answer": "B",
+    "explanation": "Cross-training ensures that multiple team members understand different roles and tasks. This redundancy and flexibility are crucial during high-stress incidents when key personnel may be unavailable or overwhelmed, allowing the team to adapt and maintain effective response. It does not necessarily reduce team size or eliminate tools."
+  },
+  {
+    "question number": "169",
+    "domain": "Incident Response",
+    "question": "Which of the following is a common challenge in the recovery phase of incident response?",
+    "options": [
+      "A) Identifying the initial intrusion vector",
+      "B) Ensuring full restoration without reintroducing the threat",
+      "C) Deciding on initial containment actions",
+      "D) Conducting a thorough root cause analysis"
+    ],
+    "answer": "B",
+    "explanation": "The recovery phase aims to restore systems to normal operations. A critical challenge is ensuring that the recovery process itself doesn't reintroduce the malware, vulnerability, or misconfiguration that led to the incident in the first place, which requires careful validation and potentially rebuilding systems."
+  },
+  {
+    "question number": "170",
+    "domain": "Incident Response",
+    "question": "When an incident escalates, who should the incident response team typically notify first, beyond internal technical teams?",
+    "options": [
+      "A) All employees via company-wide email",
+      "B) Key stakeholders and senior management",
+      "C) Competitors in the industry",
+      "D) The general public via social media"
+    ],
+    "answer": "B",
+    "explanation": "For an escalating incident, notifying key stakeholders and senior management (e.g., legal, PR, C-suite) is crucial. They need to be aware of the situation's severity and potential impact to make informed decisions and prepare for external communications if necessary. Broad public or employee announcements often come later, if at all, and only after careful consideration."
+  },
+  {
+    "question number": "171",
+    "domain": "Incident Response",
+    "question": "What is the primary purpose of a 'containment strategy' in incident response?",
+    "options": [
+      "A) To permanently fix the vulnerability",
+      "B) To limit the scope and damage of an ongoing incident",
+      "C) To notify all affected parties",
+      "D) To restore systems to full operation"
+    ],
+    "answer": "B",
+    "explanation": "The primary goal of containment is to stop the spread of the attack and limit the damage it can cause. This involves isolating affected systems, blocking malicious traffic, or temporarily shutting down services to prevent further compromise. Fixing vulnerabilities (eradication) and restoring systems (recovery) come later."
+  },
+  {
+    "question number": "172",
+    "domain": "Incident Response",
+    "question": "Which metric is most indicative of an incident response team's efficiency in stopping an attack?",
+    "options": [
+      "A) Mean Time To Detect (MTTD)",
+      "B) Mean Time To Respond (MTTR)",
+      "C) Mean Time To Contain (MTTC)",
+      "D) Number of incidents handled per year"
+    ],
+    "answer": "C",
+    "explanation": "Mean Time To Contain (MTTC) specifically measures how long it takes for the incident response team to stop the spread of an incident after it has been detected. This directly reflects their efficiency in preventing further damage and is a critical operational metric for containment effectiveness."
+  },
+  {
+    "question number": "173",
+    "domain": "Incident Response",
+    "question": "When considering the 'scope' of an incident, what is the most important information to determine early on?",
+    "options": [
+      "A) The attacker's nationality",
+      "B) The number of systems affected and the type of data compromised",
+      "C) The long-term cost of the incident",
+      "D) The specific malware variant used"
+    ],
+    "answer": "B",
+    "explanation": "Understanding the scope – specifically, which systems are affected and what data (if any) has been compromised – is critical in the early stages of an incident. This information directly impacts containment strategies, prioritization of efforts, and potential notification requirements."
+  },
+  {
+    "question number": "174",
+    "domain": "Incident Response",
+    "question": "Which framework provides a common approach for organizations to manage and respond to cybersecurity risks?",
+    "options": [
+      "A) ISO 27001",
+      "B) NIST Cybersecurity Framework (CSF)",
+      "C) PCI DSS",
+      "D) GDPR"
+    ],
+    "answer": "B",
+    "explanation": "The NIST Cybersecurity Framework (CSF) provides a high-level, outcome-based approach to managing cybersecurity risks, including functions like Identify, Protect, Detect, Respond, and Recover. ISO 27001 is an information security management system standard, PCI DSS is for payment card data, and GDPR is a data privacy regulation."
+  },
+  {
+    "question number": "175",
+    "domain": "Incident Response",
+    "question": "What is the primary challenge in performing forensic analysis on volatile memory (RAM)?",
+    "options": [
+      "A) RAM is too expensive to acquire for forensics",
+      "B) Data in RAM is lost when the system is powered off",
+      "C) RAM does not contain useful forensic data",
+      "D) RAM analysis requires specialized hardware only"
+    ],
+    "answer": "B",
+    "explanation": "Volatile memory (RAM) contains critical forensic artifacts (e.g., running processes, network connections, decrypted data), but this data is lost when the system is powered down or crashes. Therefore, live acquisition techniques are necessary to preserve this evidence."
+  },
+  {
+    "question number": "176",
+    "domain": "Incident Response",
+    "question": "Which type of attack is best addressed by immediate network segmentation during containment?",
+    "options": [
+      "A) Phishing email campaign",
+      "B) Denial of service (DoS) attack targeting a single web server",
+      "C) Ransomware spreading laterally across the network",
+      "D) Website defacement"
+    ],
+    "answer": "C",
+    "explanation": "Network segmentation is highly effective against threats that spread laterally, like ransomware or worms. Isolating the affected segments prevents the malicious software from reaching and encrypting more systems, thereby containing the damage. DoS attacks are typically mitigated by other means (e.g., rate limiting, blackholing), and phishing and defacement don't primarily involve lateral movement requiring segmentation."
+  },
+  {
+    "question number": "177",
+    "domain": "Incident Response",
+    "question": "What is the primary role of a 'war room' or 'command center' during a major incident?",
+    "options": [
+      "A) To store all incident response tools",
+      "B) To serve as a central physical or virtual hub for incident coordination and communication",
+      "C) To conduct public press conferences",
+      "D) To isolate compromised systems physically"
+    ],
+    "answer": "B",
+    "explanation": "A war room or command center acts as a centralized location (physical or virtual) where the incident response team and key stakeholders can gather, share information, make critical decisions, and coordinate efforts effectively during a major incident. It facilitates rapid communication and collaboration."
+  },
+  {
+    "question number": "178",
+    "domain": "Incident Response",
+    "question": "Which of the following is an example of an 'administrative control' in incident response?",
+    "options": [
+      "A) Intrusion Detection System (IDS)",
+      "B) Data encryption",
+      "C) An Incident Response Plan (IRP)",
+      "D) Multi-factor authentication (MFA)"
+    ],
+    "answer": "C",
+    "explanation": "Administrative controls are policies, procedures, and guidelines designed to manage information security. An Incident Response Plan (IRP) is a prime example of an administrative control that guides the organization's response to security incidents. IDS, encryption, and MFA are technical controls."
+  },
+  {
+    "question number": "179",
+    "domain": "Incident Response",
+    "question": "What is the primary goal of the 'Preparation' phase of incident response?",
+    "options": [
+      "A) To detect an ongoing incident",
+      "B) To establish the necessary tools, processes, and training before an incident occurs",
+      "C) To remove the threat from the environment",
+      "D) To restore systems to normal operation"
+    ],
+    "answer": "B",
+    "explanation": "The preparation phase is foundational. It involves proactive measures like developing plans, acquiring tools, training staff, establishing communication channels, and building a security infrastructure so that an organization is ready to effectively respond when an incident does occur."
+  },
+  {
+    "question number": "180",
+    "domain": "Incident Response",
+    "question": "Which type of attack typically involves an attacker gaining initial access and then performing activities to blend in with legitimate network traffic over a long period?",
+    "options": [
+      "A) Distributed Denial of Service (DDoS)",
+      "B) Ransomware outbreak",
+      "C) Advanced Persistent Threat (APT)",
+      "D) SQL Injection"
+    ],
+    "answer": "C",
+    "explanation": "Advanced Persistent Threats (APTs) are characterized by their long-term, stealthy nature, often involving sophisticated techniques to gain initial access, maintain persistence, and evade detection while slowly exfiltrating data or achieving other objectives. DDoS, ransomware, and SQL injection are typically more immediate and disruptive attacks."
+  },
+  {
+    "question number": "181",
+    "domain": "Reporting and Communication",
+    "question": "What is the primary purpose of a 'Situational Report' during an active security incident?",
+    "options": [
+      "A) To assign blame for the incident",
+      "B) To provide concise, real-time updates on the incident's status to stakeholders",
+      "C) To publish a press release to the public",
+      "D) To document the complete forensic analysis findings"
+    ],
+    "answer": "B",
+    "explanation": "A situational report (SitRep) is a brief, frequent communication during an active incident designed to keep key stakeholders (management, legal, PR) informed of the current status, known impact, and ongoing actions, allowing for informed decision-making without overwhelming them with technical details. Complete forensic findings come later."
+  },
+  {
+    "question number": "182",
+    "domain": "Reporting and Communication",
+    "question": "When communicating with non-technical stakeholders about a security incident, what is the most important factor?",
+    "options": [
+      "A) Using highly technical jargon to demonstrate expertise",
+      "B) Focusing on the business impact and clear, concise information",
+      "C) Providing every single technical detail collected",
+      "D) Avoiding all communication until the incident is fully resolved"
+    ],
+    "answer": "B",
+    "explanation": "Non-technical stakeholders primarily care about the business impact (e.g., financial loss, reputational damage, operational disruption) and a clear understanding of the situation. Using simple language, focusing on outcomes, and providing concise updates are essential for effective communication. Avoiding communication or using excessive jargon is detrimental."
+  },
+  {
+    "question number": "183",
+    "domain": "Reporting and Communication",
+    "question": "What is the primary purpose of an 'After Action Report' (AAR) or 'Lessons Learned' document?",
+    "options": [
+      "A) To legally blame individuals for mistakes made during an incident",
+      "B) To summarize the incident and identify improvements for future response efforts",
+      "C) To inform law enforcement of all minor security events",
+      "D) To justify increased security budget requests"
+    ],
+    "answer": "B",
+    "explanation": "An After Action Report (AAR) is a formal document created after an incident or exercise to summarize what happened, what went well, what could be improved, and to identify actionable recommendations for enhancing future incident response capabilities and overall security posture. It is a learning tool, not for assigning blame."
+  },
+  {
+    "question number": "184",
+    "domain": "Reporting and Communication",
+    "question": "Which type of communication is typically required by regulatory bodies (e.g., GDPR, HIPAA) following a data breach?",
+    "options": [
+      "A) Internal technical team updates only",
+      "B) Public notification to affected individuals and/or supervisory authorities",
+      "C) Anonymous forum posts",
+      "D) Communications with competitors"
+    ],
+    "answer": "B",
+    "explanation": "Many data privacy regulations (like GDPR and HIPAA) mandate specific timelines and content for notifying affected individuals and/or relevant supervisory authorities (e.g., data protection agencies) following a data breach. This is a critical legal and ethical obligation. Internal updates are insufficient, and anonymous posts or competitor communications are irrelevant."
+  },
+  {
+    "question number": "185",
+    "domain": "Reporting and Communication",
+    "question": "What is the primary benefit of using a 'communication plan' during incident response?",
+    "options": [
+      "A) It prevents all internal disagreements",
+      "B) It ensures consistent and controlled messaging to all stakeholders",
+      "C) It automates all public relations activities",
+      "D) It eliminates the need for real-time updates"
+    ],
+    "answer": "B",
+    "explanation": "A communication plan defines who communicates what, when, and to whom during an incident. This ensures that all stakeholders receive accurate, consistent, and appropriate information, preventing misinformation, managing expectations, and maintaining trust. It's about control and consistency, not elimination of updates or disagreements."
+  },
+  {
+    "question number": "186",
+    "domain": "Reporting and Communication",
+    "question": "When presenting security findings to a technical audience (e.g., IT engineers), what level of detail is generally appropriate?",
+    "options": [
+      "A) High-level summaries only",
+      "B) Detailed technical findings and actionable recommendations",
+      "C) Only financial impact estimates",
+      "D) Vague statements to avoid overwhelming them"
+    ],
+    "answer": "B",
+    "explanation": "Technical audiences require detailed technical findings (e.g., vulnerability IDs, system configurations, specific log entries) along with concrete, actionable recommendations for remediation. They are typically concerned with the 'how' and 'what' of the problem and its solution."
+  },
+  {
+    "question number": "187",
+    "domain": "Reporting and Communication",
+    "question": "What is the primary purpose of establishing clear 'reporting lines' within the incident response team?",
+    "options": [
+      "A) To ensure only one person can make decisions",
+      "B) To define who reports to whom and for what information, ensuring efficient information flow",
+      "C) To create a hierarchical structure for blame assignment",
+      "D) To limit communication to prevent information leaks"
+    ],
+    "answer": "B",
+    "explanation": "Clear reporting lines (who reports to whom) and communication channels are crucial for efficient information flow and decision-making during an incident. They ensure that relevant information reaches the right people promptly and prevent duplication of effort or missed critical updates. It's about efficiency, not blame or information suppression."
+  },
+  {
+    "question number": "188",
+    "domain": "Reporting and Communication",
+    "question": "When should an organization typically issue a 'public statement' about a security incident?",
+    "options": [
+      "A) Immediately after detection, without confirmation",
+      "B) After thorough investigation, containment, and in consultation with legal/PR",
+      "C) Only if forced by legal action",
+      "D) Never, to avoid negative publicity"
+    ],
+    "answer": "B",
+    "explanation": "Public statements about security incidents require careful consideration. They should be issued only after a thorough investigation, initial containment, and in close coordination with legal counsel and public relations teams to ensure accuracy, compliance, and appropriate messaging. Premature or reactive statements can cause more harm."
+  },
+  {
+    "question number": "189",
+    "domain": "Reporting and Communication",
+    "question": "What is the primary benefit of using standardized reporting templates for security incidents?",
+    "options": [
+      "A) They reduce the number of incidents occurring",
+      "B) They ensure consistent information collection and easier analysis over time",
+      "C) They eliminate the need for manual data entry",
+      "D) They are primarily for external auditors"
+    ],
+    "answer": "B",
+    "explanation": "Standardized reporting templates ensure that all relevant information is collected consistently for each incident, making it easier to analyze trends, compare incidents, track metrics, and generate comprehensive reports for various stakeholders. They don't prevent incidents or eliminate all manual entry, and serve internal needs beyond just external auditors."
+  },
+  {
+    "question number": "190",
+    "domain": "Reporting and Communication",
+    "question": "When reporting security risks to a board of directors, what type of information is most effective?",
+    "options": [
+      "A) Highly technical details of individual vulnerabilities",
+      "B) Raw log data from security devices",
+      "C) Strategic impact on business objectives and proposed mitigation costs/benefits",
+      "D) Daily security alert counts"
+    ],
+    "answer": "C",
+    "explanation": "The board of directors is primarily concerned with strategic and financial implications. Reports to them should focus on the strategic impact of security risks on business objectives, potential financial losses, and the cost/benefit analysis of proposed risk mitigation strategies. Detailed technical data or daily operational metrics are typically not relevant for this audience."
+  },
+  {
+    "question number": "191",
+    "domain": "Reporting and Communication",
+    "question": "Which of the following is a key component of effective internal communication during an incident?",
+    "options": [
+      "A) Sending mass emails to all employees with technical details",
+      "B) Establishing clear communication channels and defined roles for information sharing",
+      "C) Waiting until the incident is fully resolved to communicate internally",
+      "D) Relying solely on informal communication between team members"
+    ],
+    "answer": "B",
+    "explanation": "Effective internal communication relies on established channels (e.g., dedicated chat, bridge calls) and clear roles (who communicates what to whom) to ensure that technical teams, management, and other relevant internal departments receive timely and accurate information during an incident. Mass technical emails, delays, or informal communication can lead to chaos."
+  },
+  {
+    "question number": "192",
+    "domain": "Reporting and Communication",
+    "question": "What is the primary role of the 'Public Relations' team during a major security incident?",
+    "options": [
+      "A) To conduct forensic analysis",
+      "B) To manage external communications and protect the organization's reputation",
+      "C) To directly implement technical containment measures",
+      "D) To decide on legal actions against attackers"
+    ],
+    "answer": "B",
+    "explanation": "The Public Relations (PR) team is responsible for managing all external communications during a major incident, including crafting public statements, responding to media inquiries, and working to protect and restore the organization's reputation. They work closely with legal and technical teams but do not perform forensic analysis or implement technical controls directly."
+  },
+  {
+    "question number": "193",
+    "domain": "Reporting and Communication",
+    "question": "When reporting on 'Key Performance Indicators (KPIs)' for a security program, what should be the main focus?",
+    "options": [
+      "A) Raw counts of security events",
+      "B) Metrics that demonstrate progress towards security objectives and risk reduction",
+      "C) The number of security tools purchased",
+      "D) The amount of money spent on security training"
+    ],
+    "answer": "B",
+    "explanation": "KPIs should measure the effectiveness of the security program in achieving its objectives and reducing risk. This means focusing on metrics like Mean Time To Respond, vulnerability remediation rates, or compliance adherence, rather than just activity counts or spending, which don't directly reflect effectiveness."
+  },
+  {
+    "question number": "194",
+    "domain": "Reporting and Communication",
+    "question": "What is the primary purpose of 'post-incident communication' with affected users or customers?",
+    "options": [
+      "A) To assign blame to users for the incident",
+      "B) To rebuild trust, provide guidance, and fulfill legal/regulatory obligations",
+      "C) To collect more technical forensic data",
+      "D) To demand compensation for damages"
+    ],
+    "answer": "B",
+    "explanation": "Post-incident communication with affected parties is crucial for rebuilding trust, providing clear information about what happened (if relevant), offering guidance on protective measures they might take, and fulfilling legal or regulatory notification requirements. It is not about blame or collecting forensic data."
+  },
+  {
+    "question number": "195",
+    "domain": "Reporting and Communication",
+    "question": "Which reporting framework is commonly used to standardize threat intelligence sharing?",
+    "options": [
+      "A) MITRE ATT&CK",
+      "B) ISO 27001",
+      "C) NIST 800-53",
+      "D) COBIT"
+    ],
+    "answer": "A",
+    "explanation": "While STIX/TAXII are standards for intelligence *sharing*, MITRE ATT&CK is a globally accessible knowledge base of adversary tactics and techniques based on real-world observations. It provides a common language for describing and sharing threat intelligence (TTPs) and is widely used for reporting on adversary behavior and mapping defenses. ISO 27001, NIST 800-53, and COBIT are frameworks for security management and controls, not specifically for threat intelligence sharing content."
+  },
+  {
+    "question number": "196",
+    "domain": "Reporting and Communication",
+    "question": "When creating an 'executive summary' for a security report, what should be its key characteristic?",
+    "options": [
+      "A) Highly detailed and technical",
+      "B) Brief, non-technical, and focused on business impact and recommendations",
+      "C) Filled with legal disclaimers",
+      "D) Longer than the main report body"
+    ],
+    "answer": "B",
+    "explanation": "An executive summary is designed for busy senior leaders. It must be brief, use non-technical language, and clearly articulate the key findings, the business impact of those findings, and actionable recommendations. Its purpose is to convey essential information quickly without requiring deep technical understanding."
+  },
+  {
+    "question number": "197",
+    "domain": "Reporting and Communication",
+    "question": "What is the primary goal of providing 'context' in security reports?",
+    "options": [
+      "A) To make reports longer and more impressive",
+      "B) To help the audience understand the significance and implications of findings",
+      "C) To obscure critical details from non-technical readers",
+      "D) To justify the use of specific security tools"
+    ],
+    "answer": "B",
+    "explanation": "Context provides the background and surrounding information necessary for the audience to understand the relevance and significance of the security findings. It helps them grasp why a particular vulnerability or incident matters and what its potential implications are for the business."
+  },
+  {
+    "question number": "198",
+    "domain": "Reporting and Communication",
+    "question": "Which of the following is crucial for maintaining transparency in internal security reporting?",
+    "options": [
+      "A) Withholding all negative findings",
+      "B) Providing honest and objective assessments, even of weaknesses",
+      "C) Only reporting good news to management",
+      "D) Inflating positive security metrics"
+    ],
+    "answer": "B",
+    "explanation": "Transparency requires providing honest and objective assessments of the security posture, including acknowledging weaknesses, challenges, and incidents. Suppressing negative findings or inflating positives undermines trust and prevents effective risk management. Objective reporting builds credibility and facilitates improvement."
+  },
+  {
+    "question number": "199",
+    "domain": "Reporting and Communication",
+    "question": "When discussing 'lessons learned' from an incident, what communication style should be adopted?",
+    "options": [
+      "A) Accusatory and blame-oriented",
+      "B) Constructive, collaborative, and forward-looking",
+      "C) Dismissive of all mistakes",
+      "D) Focused solely on past events without future implications"
+    ],
+    "answer": "B",
+    "explanation": "Lessons learned discussions should be constructive and collaborative, focusing on identifying systemic issues, process improvements, and future preventative measures rather than assigning individual blame. The goal is continuous improvement, not punishment."
+  },
+  {
+    "question number": "200",
+    "domain": "Reporting and Communication",
+    "question": "What is the primary purpose of 'metrics' in security reporting?",
+    "options": [
+      "A) To collect random numbers for display",
+      "B) To quantify security posture, track progress, and support decision-making",
+      "C) To justify purchasing more security software",
+      "D) To replace human judgment in security operations"
+    ],
+    "answer": "B",
+    "explanation": "Security metrics provide quantifiable data that helps measure the effectiveness of security controls, track progress towards security goals, identify trends, and inform strategic and operational decision-making. They help translate abstract security concepts into tangible performance indicators."
+  }
+]]
