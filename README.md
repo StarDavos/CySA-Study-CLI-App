@@ -1,10 +1,10 @@
 🛡️ CySA+ Study CLI App is a command-line tool to help you prepare for the CompTIA CySA+ exam using:
 
-Practice term drills
+Practice term flash cards. This mode will show you a term ans wait for you to press enter before giving you the definition.
 
-Practice exams with explanations
+Practice exams with explanations - This mode will pull 100 questions from the json file- allow you to answer and after you answer it will let you know if you are right or wrong and will give you a short explanation on why this is the correct answer.
 
-Timed exam simulations
+Timed exam simulations - A 60 minute timed exam mode in which you answer 100 questions or hit the 60 minute mark.
 
 Automatic result tracking
 
