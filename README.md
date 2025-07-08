@@ -46,5 +46,5 @@ cysa_plus_100_clean_FIXED.json (100 practice questions)
 
 cysa_plus_100_terms.json (key CySA+ terms)
 
-For access to my notion.so notebook with all notes on the CySA+ exam follow the link below
+For access to my notion.so notebook with all notes on the CySA+ exam follow the link below <br/>
 [StarDavos CySA+ notebook](https://stardavos.notion.site/Security-Operations-1bc3e028b6f980feb6fadf90f78f83fa)
