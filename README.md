@@ -1,4 +1,3 @@
-CySA+ Study CLI App
 🛡️ CySA+ Study CLI App is a command-line tool to help you prepare for the CompTIA CySA+ exam using:
 
 Practice term drills
