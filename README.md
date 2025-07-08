@@ -26,7 +26,7 @@ Installation
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/cysa-study-cli.git
+git clone https://github.com/StarDavos/CySA-Study-CLI-App.git
 cd cysa-study-cli
 2️⃣ Ensure Python is installed:
 
