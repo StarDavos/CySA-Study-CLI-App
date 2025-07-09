@@ -10,9 +10,9 @@ Automatic result tracking
 
 Historical result review sorted by exam type
 
-All data is stored locally using SQLite, enabling personalized study tracking on your machine.
+All data is stored locally using SQLite, enabling personalized study tracking on your machine.<br/>
 
-Features
+⭐️Features⭐️<br/>
 ✅ Practice Terms – Learn key CySA+ terms with press-to-reveal definitions. <br/>
 ✅ Practice Exam Mode – Randomized, untimed quizzes with explanations shown after each answer. <br/>
 ✅ Timed Exam Mode – Simulates a 60-minute exam environment with scoring upon completion. <br/>
