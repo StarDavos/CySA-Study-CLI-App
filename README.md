@@ -13,11 +13,11 @@ Historical result review sorted by exam type
 All data is stored locally using SQLite, enabling personalized study tracking on your machine.
 
 Features
-✅ Practice Terms – Learn key CySA+ terms with press-to-reveal definitions.
-✅ Practice Exam Mode – Randomized, untimed quizzes with explanations shown after each answer.
-✅ Timed Exam Mode – Simulates a 60-minute exam environment with scoring upon completion.
-✅ Historical Results Tracking – Stores your scores, correct/incorrect counts, and time taken for each test attempt, viewable by exam type.
-✅ User Login System – Allows multiple users to track their progress securely on the same device.
+✅ Practice Terms – Learn key CySA+ terms with press-to-reveal definitions. <br/>
+✅ Practice Exam Mode – Randomized, untimed quizzes with explanations shown after each answer. <br/>
+✅ Timed Exam Mode – Simulates a 60-minute exam environment with scoring upon completion. <br/>
+✅ Historical Results Tracking – Stores your scores, correct/incorrect counts, and time taken for each test attempt, viewable by exam type. <br/>
+✅ User Login System – Allows multiple users to track their progress securely on the same device.<br/>
 
 Installation
 1️⃣ Clone the repository:
