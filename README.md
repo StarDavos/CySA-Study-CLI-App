@@ -19,31 +19,25 @@ All data is stored locally using SQLite, enabling personalized study tracking on
 ✅ Historical Results Tracking – Stores your scores, correct/incorrect counts, and time taken for each test attempt, viewable by exam type. <br/>
 ✅ User Login System – Allows multiple users to track their progress securely on the same device.<br/>
 
-Installation
-1️⃣ Clone the repository:
+⌨️Installation⌨️<br/>
+1️⃣ Clone the repository:<br/>
 
-bash
-Copy
-Edit
-git clone https://github.com/StarDavos/CySA-Study-CLI-App.git
-cd cysa-study-cli
-2️⃣ Ensure Python is installed:
+git clone https://github.com/StarDavos/CySA-Study-CLI-App.git<br/>
+cd cysa-study-cli<br/>
+2️⃣ Ensure Python is installed:<br/>
 
-bash
-Copy
-Edit
-python --version
-3️⃣ Install required dependencies (only sqlite3 and json, included with Python):
+python --version<br/>
+3️⃣ Install required dependencies (only sqlite3 and json, included with Python):<br/>
 
-No additional dependencies are required.
+No additional dependencies are required.<br/>
 
-4️⃣ Prepare your JSON files:
+4️⃣ Prepare your JSON files:<br/>
 
-Place the following files in the same directory:
+Place the following files in the same directory:<br/>
 
-cysa_plus_100_clean_FIXED.json (100 practice questions)
+cysa_plus_100_clean_FIXED.json (100 practice questions)<br/>
 
-cysa_plus_100_terms.json (key CySA+ terms)
+cysa_plus_100_terms.json (key CySA+ terms)<br/>
 
-For access to my notion.so notebook with all notes on the CySA+ exam follow the link below <br/>
+📓 For access to my notion.so notebook with all notes on the CySA+ exam follow the link below 📓<br/>
 [StarDavos CySA+ notebook](https://stardavos.notion.site/Security-Operations-1bc3e028b6f980feb6fadf90f78f83fa)
